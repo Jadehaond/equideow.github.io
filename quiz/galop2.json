@@ -1,0 +1,275 @@
+{
+    "quiz_title": "GALOP 2 - Quiz : Connaissez-vous les chevaux ? (30)",
+    "questions": [
+      {
+        "question": "Je pars faire une balade nocturne, je ne dois pas oublier :",
+        "type": "checkbox",
+        "réponses": [
+          { "réponse": "Une ceinture fluorescente", "correct": true },
+          { "réponse": "Des bonbons à la carotte", "correct": false },
+          { "réponse": "Une torche pour étrier", "correct": false }
+        ]
+      },
+      {
+        "question": "Il existe uniquement 14 robes chez le cheval.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": true },
+          { "réponse": "Vrai", "correct": false }
+        ]
+      },
+      {
+        "question": "Parmi les propositions suivantes, laquelle est une règle de sécurité à respecter avant de monter à cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Avoir une sucette dans la bouche", "correct": false },
+          { "réponse": "Protéger sa tête avec une bombe", "correct": true },
+          { "réponse": "Porter des chaussures sans talon", "correct": false }
+        ]
+      },
+      {
+        "question": "Lequel de ces équipements doit obligatoirement être porté par le cavalier lorsqu'il monte à cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Un appareil photo", "correct": false },
+          { "réponse": "La bombe", "correct": true },
+          { "réponse": "La cravache", "correct": false },
+          { "réponse": "Les bottes", "correct": false }
+        ]
+      },
+      {
+        "question": "Lors d'un régime, un cheval ne doit être nourri qu'avec des carottes.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": true },
+          { "réponse": "Vrai", "correct": false }
+        ]
+      },
+      {
+        "question": "Un geste brusque peut-il affoler un cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "Le cheval est un quadrupède...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "Avant de se mettre en selle, on voit certains cavaliers se mettre devant leur cheval et étirer chaque antérieur, pourquoi agissent-ils ainsi ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Pour rendre leur cheval plus docile", "correct": false },
+          { "réponse": "Pour éviter les plis de peau sous la sangle qui pourraient occasionner des blessures", "correct": true },
+          { "réponse": "Pour échauffer les tendons de leur cheval", "correct": false },
+          { "réponse": "Pour que leur cheval ait des allures plus étendues", "correct": false }
+        ]
+      },
+      {
+        "question": "Dans le manège ou la carrière, qui est prioritaire ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Le cavalier à l’allure la plus élevée", "correct": true },
+          { "réponse": "Le cavalier qui évolue au trot à main droite alors que je suis à main gauche au galop", "correct": false },
+          { "réponse": "Le meilleur cavalier", "correct": false },
+          { "réponse": "Le cavalier qui évolue à main gauche", "correct": true }
+        ]
+      },
+      {
+        "question": "Quand on fait travailler un cheval à l'obstacle en longe, on dispose une barre perpendiculairement à l'obstacle en posant une extrémité sur le support de barre se trouvant du côté du longeur de l'autre au sol :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Ce dispositif s'appelle oreille", "correct": true },
+          { "réponse": "Pour encadrer le cheval", "correct": true },
+          { "réponse": "Pour que la longe glisse sur cette barre et évite de se coincer", "correct": true },
+          { "réponse": "Ce dispositif est appelé barre d'appel", "correct": false }
+        ]
+      },
+      {
+        "question": "Le pas est une allure plus rapide que le trot.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": true },
+          { "réponse": "Vrai", "correct": false }
+        ]
+      },
+      {
+        "question": "Les personnes âgées ont-elles le droit de monter à cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui, à condition de passer un examen médical", "correct": false },
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "Lequel de ces aliments n'est pas apprécié par le cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "La pomme", "correct": false },
+          { "réponse": "La carotte", "correct": false },
+          { "réponse": "Le poireau", "correct": true },
+          { "réponse": "Le navet", "correct": false },
+          { "réponse": "La betterave", "correct": false }
+        ]
+      },
+      {
+        "question": "Je viens chercher mon cheval dans son box, je prends soin de sortir :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Avant lui", "correct": true },
+          { "réponse": "Après lui", "correct": false }
+        ]
+      },
+      {
+        "question": "Lorsque j'approche un cheval, je dois veiller à...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "À toujours passer derrière lui", "correct": false },
+          { "réponse": "À le surprendre", "correct": false },
+          { "réponse": "À le mettre en confiance en avançant doucement", "correct": true }
+        ]
+      },
+      {
+        "question": "En reprise, quelle est la taille de la distance de sécurité à respecter entre chaque cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Environ la taille d'une souris", "correct": false },
+          { "réponse": "Environ la taille d'un éléphant", "correct": false },
+          { "réponse": "Environ la taille d'un cheval", "correct": true }
+        ]
+      },
+      {
+        "question": "A quoi sert une bride ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "A contrôler mon cheval lorsque je le monte", "correct": true },
+          { "réponse": "A habiller mon cheval", "correct": false },
+          { "réponse": "A rien", "correct": false },
+          { "réponse": "A empêcher mon cheval de mordre ses congénères", "correct": false }
+        ]
+      },
+      {
+        "question": "Si mon cheval couche les oreilles, il est...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Affamé", "correct": false },
+          { "réponse": "De bonne humeur", "correct": false },
+          { "réponse": "En colère", "correct": true },
+          { "réponse": "Inquiet", "correct": false }
+        ]
+      },
+      {
+        "question": "Un cheval doux avec l'homme peut-il être agressif avec ses congénères ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Si je veux dépasser un cavalier, je dois :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "lui demander l'autorisation", "correct": true },
+          { "réponse": "mettre mon clignotant", "correct": false },
+          { "réponse": "le dépasser par l'intérieur", "correct": true },
+          { "réponse": "le dépasser par l'extérieur", "correct": false }
+        ]
+      },
+      {
+        "question": "Combien un cheval a t-il de jambes ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Ça dépend de sa race", "correct": false },
+          { "réponse": "2", "correct": false },
+          { "réponse": "4", "correct": true },
+          { "réponse": "5", "correct": false }
+        ]
+      },
+      {
+        "question": "Mon cheval a bien travaillé aujourd'hui, je peux...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "le récompenser avec une friandise", "correct": true },
+          { "réponse": "l'emmener au restaurant", "correct": false }
+        ]
+      },
+      {
+        "question": " Que doit faire le cavalier qui n’est pas prioritaire dans le manège ou en carrière ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Passer en piste intérieure", "correct": true },
+          { "réponse": "Rien, c’est à celui qui est prioritaire de réagir", "correct": false },
+          { "réponse": "S’arrêter au milieu", "correct": false }
+        ]
+      },
+      {
+        "question": "Mon cheval est en train de manger, je dois veiller à...",
+        "type": "radio",
+        "réponses": [
+            { "réponse": "Chuchoter à son oreille", "correct": false },
+            { "réponse": "Le laisser tranquille", "correct": true },
+            { "réponse": "Le caresser", "correct": false }
+        ]
+      },
+      {
+        "question": "Tant que les cavaliers de la reprise ne sont pas tous à cheval,",
+        "type": "radio",
+        "réponses": [
+            { "réponse": "Je reste arrêté ou au pas", "correct": true },
+            { "réponse": "Je peux commencer à trotter dans le manège", "correct": false }
+        ]
+      },
+      {
+          "question": "Panser un cheval n'a que peu d'utilité.",
+          "type": "radio",
+          "réponses": [
+              { "réponse": "Vrai", "correct": false },
+              { "réponse": "Faux", "correct": true },
+              { "réponse": "Ça dépend de la saison", "correct": false }
+          ]
+      },
+      {
+          "question": "À leur naissance, les poulains sont dépourvus de tout poil.",
+          "type": "radio",
+          "réponses": [
+              { "réponse": "Faux", "correct": true },
+              { "réponse": "Vrai", "correct": false }
+          ]
+      },
+      {
+          "question": "Il existe une discipline équestre où l'on joue en équipe à se lancer un ballon.",
+          "type": "radio",
+          "réponses": [
+              { "réponse": "Vrai, c'est le horse-ball", "correct": true },
+              { "réponse": "Vrai, c'est le hand équestre", "correct": false },
+              { "réponse": "Faux", "correct": false }
+          ]
+      },
+      {
+          "question": "Le cheval est un quadrupède...",
+          "type": "radio",
+          "réponses": [
+              { "réponse": "Faux", "correct": false },
+              { "réponse": "Vrai", "correct": true }
+          ]
+      },
+      {
+          "question": "Lors d'une compétition à l'étranger, est-il possible de faire voyager son cheval par avion ?",
+          "type": "radio",
+          "réponses": [
+              { "réponse": "Oui", "correct": true },
+              { "réponse": "Non", "correct": false },
+              { "réponse": "Oui, mais le cheval ne doit pas être trop âgé", "correct": false }
+          ]
+      }
+    ]
+  }
+  

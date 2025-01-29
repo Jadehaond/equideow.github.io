@@ -1,0 +1,130 @@
+{
+    "quiz_title": "GALOP 7 - Quiz : Connaissez-vous les chevaux ? (13)",
+    "questions": [
+    {
+        "question": "Dans cette liste, quelles sont les protections de transport ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La cloche", "correct": true},
+        {"réponse": "La minerve", "correct": false},
+        {"réponse": "La bâche", "correct": false},
+        {"réponse": "La genouillère", "correct": true}
+        ]
+    },
+    {
+        "question": "Le Mustang est un cheval protégé aux Etats-Unis. Le nom de cette race vient de l'espagnol et signifie :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Cheval fougueux", "correct": false},
+        {"réponse": "Cheval rapide", "correct": false},
+        {"réponse": "Cheval puissant", "correct": false},
+        {"réponse": "Cheval sauvage", "correct": true},
+        {"réponse": "Cheval habile", "correct": false}
+        ]
+    },
+    {
+        "question": "Le trot est une allure...",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Sautée", "correct": true},
+        {"réponse": "À neuf temps", "correct": false},
+        {"réponse": "À six temps", "correct": false},
+        {"réponse": "À six temps", "correct": false},
+        {"réponse": "À 2 temps", "correct": true}
+        ]
+    },
+    {
+        "question": "Parmi ces lettres, lesquelles ne sont pas utilisées comme repère dans un manège ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "A", "correct": false},
+        {"réponse": "J", "correct": true},
+        {"réponse": "N", "correct": true}
+        ]
+    },
+    {
+        "question": "Combien le champ de vision du cheval comporte-t-il d'angle(s) mort(s) ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "1", "correct": false},
+        {"réponse": "2", "correct": false},
+        {"réponse": "3", "correct": true}
+        ]
+    },
+    {
+        "question": "Quelles parties ne se trouvent pas sur le pied du cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La caisse", "correct": true},
+        {"réponse": "Les ligaments extérieurs", "correct": true},
+        {"réponse": "Le coude", "correct": true},
+        {"réponse": "Le coude", "correct": false},
+        {"réponse": "Le talon", "correct": false}
+        ]
+    },
+    {
+        "question": "Où a été inventé le polo ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Aux Etats-Unis", "correct": false},
+        {"réponse": "En Angleterre", "correct": false},
+        {"réponse": "En Chine", "correct": true}
+        ]
+    },
+    {
+        "question": "Le cheval est un...",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Insectivore", "correct": false},
+        {"réponse": "Carnivore", "correct": false},
+        {"réponse": "Farnivore", "correct": false},
+        {"réponse": "Omnivore", "correct": false},
+        {"réponse": "Herbivore", "correct": true},
+        {"réponse": "Frugivore", "correct": false}
+        ]
+    },
+    {
+        "question": "Quelle est la vitesse moyenne du cheval au pas ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "10 km/h", "correct": false},
+        {"réponse": "8 km/h", "correct": false},
+        {"réponse": "6 km/h", "correct": true}
+        ]
+    },
+    {
+        "question": "Combien le cheval a-t-il de vertèbres cervicales ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "8", "correct": false},
+        {"réponse": "7", "correct": true},
+        {"réponse": "6", "correct": false}
+        ]
+    },
+    {
+        "question": "Dans la mytologie grec arion est un cheval",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Qui possède un pied humain", "correct": false},
+        {"réponse": "Né de l'union de Poséïdon et Déméter", "correct": true},
+        {"réponse": "Connu pour sa rapidité", "correct": false}
+        ]
+    },
+    {
+        "question": "À un niveau élevé d'équitation, les cavaliers s'assoient :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "En arrière de la selle", "correct": false},
+        {"réponse": "En avant de la selle", "correct": true}
+        ]
+    },
+    {
+        "question": "Les poils du cheval sont identiques quelque soit la saison.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": false},
+        {"réponse": "Faux", "correct": true}
+        ]
+    }
+    ]
+}

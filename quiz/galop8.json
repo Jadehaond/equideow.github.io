@@ -1,0 +1,316 @@
+{
+    "quiz_title": "GALOP 8 - Quiz : Connaissez-vous les chevaux ? (??)",
+    "questions": [
+    {
+        "question": "Tolstoï, grand écrivain russe, était aussi un homme de cheval ; il était encore cavalier à 75 ans.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": true},
+        {"réponse": "Faux", "correct": false}
+        ]
+    },
+    {
+        "question": "Le vessigon est :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Une tare molle", "correct": true}
+        ]
+    },
+    {
+        "question": "Le boulonnais, à la fin du XIXème siècle, a été amélioré avec du sang arabe, mais pour quelle raison ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Pour les rendre plus rapides et leur permettre de livrer la marée à Paris en un temps record", "correct": true}
+        ]
+    },
+    {
+        "question": "Le matériel (selle + filet) doit être nettoyé à fond et graissé",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Tous les mois", "correct": true}
+        ]
+    },
+    {
+        "question": "Quelle est la succession du poser des membres au galop à gauche ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "postérieur droit, diagonal droit , antérieur gauche", "correct": true}
+        ]
+    },
+    {
+        "question": "Les chataignes sont",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Les traces d'un ancien doigt supplémentaire du cheval à l'époque préhistorique et les fruits du chataîgné", "correct": true}
+        ]
+    },
+    {
+        "question": "La crinière des poneys Fjord pousse naturellement en brosse.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": true},
+        {"réponse": "Vrai", "correct": false}
+        ]
+    },
+    {
+        "question": "Qu'est-ce qu'un mash ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Un aliment dont les chevaux sont friands", "correct": true}
+        ]
+    },
+    {
+        "question": "A chaque période de mue, le cheval est plus fatigué et vulnérable qu'habituellement.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": true},
+        {"réponse": "Faux", "correct": false}
+        ]
+    },
+    {
+        "question": "Un cheval de mon club, à l'heure du repas, ne mange pas et en profite pour faire des grimaces.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "C'est sans doute grave, je préviens un moniteur", "correct": true}
+        ]
+    },
+    {
+        "question": "La robe isabelle doit son nom à",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Isabelle-La-Catholique, ayant fait voeu lors du siège de Grenade en 1491 , de ne changer de chemise qu'à la fin du siège ; d'où cette couleur « sale »", "correct": true}
+        ]
+    },
+    {
+        "question": "Le cheval est un",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Animal grégaire bâti pour la fuite", "correct": true}
+        ]
+    },
+    {
+        "question": "Qui était le premier cavalier de Pégase ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Persée", "correct": true}
+        ]
+    },
+    {
+        "question": "Lequel de ces os fait partie de l'articulation du carpe ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "L'os pisiforme", "correct": true}
+        ]
+    },
+    {
+        "question": "Il fait soleil, -10°C, le chemin de terre sur lequel je suis est une belle allée dégagée, il n'y a pas de cailloux, mon cheval est calme. Je peux galoper.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Non", "correct": true},
+        {"réponse": "Oui", "correct": false}
+        ]
+    },
+    {
+        "question": "Quelle robe comporte des poils des trois couleurs, mélangés:",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Rouen", "correct": true}
+        ]
+    },
+    {
+        "question": "Au pré, un nouveau cheval introduit dans un troupeau est le plus souvent :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Violemment rejeté", "correct": true}
+        ]
+    },
+    {
+        "question": "La cabriole, célèbre figure des chevaux du Cadre Noir de Saumur consiste en un saut pendant lequel le cheval décoche une ruade. Pourquoi a-t-elle été inventée ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "C'est pour préparer aux secousses de combat", "correct": true}
+        ]
+    },
+    {
+        "question": "Quel est l'inconvénient de l'huile de pied de boeuf ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Elle use prématurément les coutures", "correct": true}
+        ]
+    },
+    {
+        "question": "Coche les affirmations justes :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Il existe des selles polyvalentes (également appellées mixtes)", "correct": true},
+        {"réponse": "Les selles western peuvent avoir dux sangles", "correct": true},
+        {"réponse": "Les selles de dressage ont des quartiers plus longs que ceux des selles d'obstacle", "correct": true}
+        ]
+    },
+    {
+        "question": "Le squelette de la selle se nomme",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "L'arçon", "correct": true}
+        ]
+    },
+    {
+        "question": "Comment appelle-t-on la petite 'aiguille' d'une boucle ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "L'ardillon", "correct": true}
+        ]
+    },
+    {
+        "question": "Le cuir est une matière",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Animale", "correct": true}
+        ]
+    },
+    {
+        "question": "Pour lisser le cuir, il utilise un lissoir, outil généralement fabriqué en",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Buis", "correct": true}
+        ]
+    },
+    {
+        "question": "Les selles ont des yeux",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": true},
+        {"réponse": "Faux", "correct": false}
+        ]
+    },
+    {
+        "question": "Il existe des filets synthétiques",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": true},
+        {"réponse": "Faux", "correct": false}
+        ]
+    },
+    {
+        "question": "Le 'couteau à pied' est aussi appelé fréquemment",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Gguillotine", "correct": true}
+        ]
+    },
+    {
+        "question": "Une selle adaptée",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "ne touche surtout pas le garrot du cheval", "correct": true}
+        ]
+    },
+    {
+        "question": "Le sellier confectionne des selles, brides, harnais d'attelage d'une facture plus sophistiquée que le bourrelier",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": true},
+        {"réponse": "Faux", "correct": false}
+        ]
+    },
+    {
+        "question": "L'entretien ordinaire du cuir de l'harnachement se fait",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Au savon glycériné", "correct": true}
+        ]
+    },
+    {
+        "question": "Les cuirs craignent avant tout",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La transpiration", "correct": true}
+        ]
+    },
+    {
+        "question": "A quoi servent les surpiqures ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "À renforcer les coutures", "correct": true}
+        ]
+    },
+    {
+        "question": "Pour coudre, le bourrelier utilise :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Des alènes", "correct": true},
+        {"réponse": "Des aiguilles", "correct": true},
+        {"réponse": "Du fil de chanvre", "correct": true}
+        ]
+    },
+    {
+        "question": "La pierre à selle",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Sert à entretenir le cuir sans le mouiller", "correct": true}
+        ]
+    },
+    {
+        "question": "Qu'est-ce que la pierre à sel ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Quelque chose qu'on trouve dans le box sur equideo, et on ne sait pas trop de quoi il s'agit", "correct": true}
+        ]
+    },
+    {
+        "question": "Coche tous les éléments de la selle",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Les quartiers", "correct": true},
+        {"réponse": "Les faux quartiers", "correct": true},
+        {"réponse": "Le troussequin", "correct": true},
+        {"réponse": "Les sanglons", "correct": true}
+        ]
+    },
+    {
+        "question": "Le couteau à parer sert à",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "ALe couteau à parer sert à", "correct": true}
+        ]
+    },
+    {
+        "question": "Qu'est ce qu'un mégissier ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Celui qui prépare les cuirs pour le sellier", "correct": true}
+        ]
+    },
+    {
+        "question": "Le trot est une allure",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Sautée", "correct": true}
+        ]
+    },
+    {
+        "question": "Lesquelles de ces figures relèvent du travail de deux pistes ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "'appuyer", "correct": true},
+        {"réponse": "L'appuyer", "correct": true}
+        ]
+    },
+    {
+        "question": "Le métier de bourrelier a disparu aujourd'hui.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": true},
+        {"réponse": "Vrai", "correct": false}
+        ]
+    },
+    {
+        "question": "Quelles lettres ne sont pas utilisées dans le marquage pour les manèges ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "N", "correct": true},
+        {"réponse": "J", "correct": true}
+        ]
+    }
+    ]
+}

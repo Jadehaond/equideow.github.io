@@ -1,0 +1,190 @@
+{
+    "quiz_title": "GALOP 1 - Quiz : Connaissez-vous les chevaux ? (20)",
+    "questions": [
+    {
+        "question": "Quel est le célèbre film où l'on peut découvrir Robert Redford dans le personnage d'un chuchoteur ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Chuchoteur man", "correct": false},
+        {"réponse": "L'homme qui murmurait à l'oreille des chevaux", "correct": true},
+        {"réponse": "Mon cheval et moi", "correct": false}
+        ]
+    },
+    {
+        "question": "Avec lesquelles de ces brosses, je peux nettoyer mon cheval ?",
+        "type": "checkbox",
+        "réponses": [
+        {"réponse": "Un plumeau", "correct": false},
+        {"réponse": "Une étrille", "correct": true},
+        {"réponse": "Une brosse à dent", "correct": false},
+        {"réponse": "Une brosse dure", "correct": true}
+        ]
+    },
+    {
+        "question": "Comment appelle-t-on la femelle du cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Une jument", "correct": true},
+        {"réponse": "Une pouliche", "correct": false},
+        {"réponse": "Une chevale", "correct": false}
+        ]
+    },
+    {
+        "question": "Les chevaux peuvent-ils vomir ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Non", "correct": true},
+        {"réponse": "Oui", "correct": false}
+        ]
+    },
+    {
+        "question": "De quelle couleur était le cheval blanc d'Henri IV ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Noir", "correct": false},
+        {"réponse": "Alezan", "correct": false},
+        {"réponse": "Blanc", "correct": true}
+        ]
+    },
+    {
+        "question": "Comment est né Pégase ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "D'un œuf d'autruche", "correct": false},
+        {"réponse": "De l'union d'une colombe et d'un zèbre", "correct": false},
+        {"réponse": "Du sang de Méduse", "correct": true}
+        ]
+    },
+    {
+        "question": "Parmi ces animaux fabuleux, lesquels possèdent un corps de cheval ?",
+        "type": "checkbox",
+        "réponses": [
+        {"réponse": "Le sphinx", "correct": false},
+        {"réponse": "L'hippogriffe", "correct": true},
+        {"réponse": "La chimère", "correct": true},
+        {"réponse": "La licorne", "correct": true}
+        ]
+    },
+    {
+        "question": "L'hippocampe est un cousin du cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": false},
+        {"réponse": "Faux", "correct": true}
+        ]
+    },
+    {
+        "question": "Lorsque Ulysse a construit le cheval de Troie, quel matériau a-t-il choisi ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le bois", "correct": true},
+        {"réponse": "Le plastique", "correct": false},
+        {"réponse": "Le ciment", "correct": false},
+        {"réponse": "Le carton", "correct": false}
+        ]
+    },
+    {
+        "question": "Un hippie est ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Un parasite qui s'accroche sur l'encolure des chevaux", "correct": false},
+        {"réponse": "Une personne qui refuse les valeurs sociales et culturelles de la société de consommation", "correct": true},
+        {"réponse": "Un excellent cavalier", "correct": false}
+        ]
+    },
+    {
+        "question": "Quelle est la boisson favorite du cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La grenadine", "correct": false},
+        {"réponse": "L'eau", "correct": true},
+        {"réponse": "Le whisky", "correct": false},
+        {"réponse": "Le jus de pamplemousse", "correct": false}
+        ]
+    },
+    {
+        "question": "Lequel de ces aliments n'est pas apprécié par le cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La carotte", "correct": false},
+        {"réponse": "La luzerne", "correct": false},
+        {"réponse": "Le foin", "correct": false},
+        {"réponse": "La paille", "correct": true}
+        ]
+    },
+    {
+        "question": "Quel est le cri du cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Il n'existe pas de nom", "correct": false},
+        {"réponse": "Le huage", "correct": false},
+        {"réponse": "Le roucoulement", "correct": false},
+        {"réponse": "Le hennissement", "correct": true}
+        ]
+    },
+    {
+        "question": "A quelle famille le cheval appartient-il ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Les invertébrés", "correct": false},
+        {"réponse": "Les reptiles", "correct": false},
+        {"réponse": "Les equidepulos", "correct": false},
+        {"réponse": "Les mammifères", "correct": true}
+        ]
+    },
+    {
+        "question": "Parmi ces robes, lesquelles n'existent pas ?",
+        "type": "checkbox",
+        "réponses": [
+        {"réponse": "Bleutée", "correct": true},
+        {"réponse": "Rougeat", "correct": true},
+        {"réponse": "Arc-en-ciel", "correct": true},
+        {"réponse": "Palomino", "correct": false},
+        {"réponse": "Alezan", "correct": false}
+        ]
+    },
+    {
+        "question": "Lorsque je sors mon cheval du pré, j'utilise :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Un vieux morceau de ficelle", "correct": false},
+        {"réponse": "Une longe", "correct": true},
+        {"réponse": "Une laisse", "correct": false}
+        ]
+    },
+    {
+        "question": "Peut-on monter un cheval sans selle ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Oui", "correct": true},
+        {"réponse": "Non", "correct": false}
+        ]
+    },
+    {
+        "question": "Les chevaux ne tombent jamais malades :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": false},
+        {"réponse": "Faux", "correct": true}
+        ]
+    },
+    {
+        "question": "Comment appelle-t-on un cheval castré ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Un étalon", "correct": false},
+        {"réponse": "Un castra", "correct": false},
+        {"réponse": "Un hongre", "correct": true}
+        ]
+    },
+    {
+        "question": "Lorsqu'il fait très froid dehors, le cheval préfère dormir :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Bien au chaud, dans son box", "correct": true},
+        {"réponse": "Dans la chambre de son propriétaire", "correct": false},
+        {"réponse": "Dans son pré, dans le froid", "correct": false}
+        ]
+    }
+    ]
+}  

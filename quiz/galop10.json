@@ -1,0 +1,110 @@
+{
+    "quiz_title": "GALOP 10 - Quiz : Connaissez-vous les chevaux ? (10)",
+    "questions": [
+    {
+        "question": "La balzane est :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Une tache de poils blancs sur le dos du cheval", "correct": false},
+        {"réponse": "Une tache de poils blanc sur la tête du cheval", "correct": false},
+        {"réponse": "Une tache de poils noirs sur la tête du cheva", "correct": false},
+        {"réponse": "Une tache de poils blancs sur les membres du cheva", "correct": true}
+        ]
+    },
+    {
+        "question": "Comment s'appelle cette attitude qu'a le cheval de sentir en inspirant profondément, en retroussant ses lèvres et en cessant momentanément de respirer ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le fhlemen", "correct": false},
+        {"réponse": "Le flhemen", "correct": false},
+        {"réponse": "Le flehmen", "correct": true},
+        {"réponse": "Le flihmen", "correct": false}
+        ]
+    },
+    {
+        "question": "Au bout de combien de temps un poulain qui vient de naitre sait marcher ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Moins d'une semaine", "correct": false},
+        {"réponse": "Moins d'une journée", "correct": false},
+        {"réponse": "Moins de 10 minutes", "correct": true},
+        {"réponse": "Moins d'une heure", "correct": false}
+        ]
+    },
+    {
+        "question": "Les chevaux sont connus pour être des :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Hypermétropes", "correct": false},
+        {"réponse": "Daltoniens", "correct": false},
+        {"réponse": "Myopes", "correct": true},
+        {"réponse": "Astigmates", "correct": false}
+        ]
+    },
+    {
+        "question": "Comment respire le cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Grâce à des poumons", "correct": true},
+        {"réponse": "Par des branchies externes", "correct": false},
+        {"réponse": "Par la bouche", "correct": false},
+        {"réponse": "Grâce à des stigmates", "correct": false}
+        ],
+        "notes": {
+        "commentaire": "Cette question est à choix multiples mais un cheval respire par les naseaux et non pas par la bouche comme on pourrait le penser"
+        }
+    },
+    {
+        "question": "Combien de muscles possède un cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Environ 200 muscles", "correct": false},
+        {"réponse": "Environ 100 muscles", "correct": false},
+        {"réponse": "Environ 500 muscles", "correct": true},
+        {"réponse": "Environ 1000 muscles", "correct": false}
+        ]
+    },
+    {
+        "question": "Où se trouve le genou du cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Au niveau des membres postérieurs", "correct": false},
+        {"réponse": "Au niveau des membres antérieurs", "correct": true},
+        {"réponse": "Au niveau de la croupe", "correct": false},
+        {"réponse": "Derrière les oreilles", "correct": false}
+        ]
+    },
+    {
+        "question": "Quel est l'angle de vision moyen d'un cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "90 degrés", "correct": false},
+        {"réponse": "120 degrés", "correct": false},
+        {"réponse": "340 degrés", "correct": true},
+        {"réponse": "480 degrés", "correct": false}
+        ]
+    },
+    {
+        "question": "Le cheval se compose de trois parties externes principales, l'avant main, le corps et l'arrière main. Qu'est ce qui fait partie de l'avant main ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Poitrine", "correct": true},
+        {"réponse": "Encolure", "correct": true},
+        {"réponse": "Tête", "correct": true},
+        {"réponse": "Membres antérieurs", "correct": true}
+        ],"notes": {
+        "commentaire": "Et oui il faut cocher toutes les réponses possibles encore un piège"
+        }
+    },
+    {
+        "question": "On dit que les jambes du cheval reposent sur un doigt unique mais lequel est-ce ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le pouce", "correct": false},
+        {"réponse": "L'annulaire", "correct": false},
+        {"réponse": "L'index", "correct": false},
+        {"réponse": "Le majeur", "correct": true}
+        ]
+    }
+]
+}

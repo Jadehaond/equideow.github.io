@@ -1,0 +1,208 @@
+{
+    "quiz_title": "GALOP 9 - Quiz : Connaissez-vous les chevaux ? (20)",
+    "questions": [
+    {
+        "question": "Pour le trot « arabe », je suis",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Assis(e) profondément dans ma selle", "correct": false},
+        {"réponse": "Ddebout sur les étriers, jambes tendue", "correct": true},
+        {"réponse": "Légèrement en appui sur les étriers, genoux fléchis pour bien amortir les chocs", "correct": false}
+        ]
+    },
+    {
+        "question": "Une jument peut parfois avoir, comme les mâles, deux dents supplémentaires appelées « crochets » :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux, c’est impossible", "correct": false},
+        {"réponse": "Faux, les mâles et les femelles ont le même nombre de dents", "correct": false},
+        {"réponse": "Vrai, on dit qu’elle est « crochetée »", "correct": false},
+        {"réponse": "Vrai, on dit alors qu’elle est « bréhaigne » ", "correct": true}
+        ]
+    },
+    {
+        "question": "Lequel de ces os n’est pas présent chez le cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le métacarpe", "correct": false},
+        {"réponse": "La clavicule", "correct": true},
+        {"réponse": "La phalange", "correct": false},
+        {"réponse": "Les vertèbres cervicales", "correct": false},
+        {"réponse": "Le métatarse", "correct": false}
+        ]
+    },
+    {
+        "question": "Quels sont les éléments du filet ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La frontière", "correct": false},
+        {"réponse": "La sur-tête", "correct": false},
+        {"réponse": "La muselière", "correct": false},
+        {"réponse": "La sous-gorge", "correct": true},
+        {"réponse": "Les montants", "correct": true},
+        {"réponse": "Les rênes", "correct": true},
+        {"réponse": "Le mors", "correct": true}
+        ]
+    },{
+        "question": "Il a existé un cheval particulièrement rapide qui gagnait beaucoup en course. A sa mort, on s’est aperçu qu’il avait une vertèbre en plus.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": false},
+        {"réponse": "Vrai", "correct": true}
+        ]
+    },
+    {
+        "question": "Lorsque l’on toilette la crinière d’un cheval, on peut faire de fines tresses roulées, appelées :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Des boulettes", "correct": false},
+        {"réponse": "Des cerises", "correct": false},
+        {"réponse": "Des billes", "correct": false},
+        {"réponse": "Des pions", "correct": true}
+        ]
+    },
+    {
+        "question": "Qui était Baucher ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "L’auteur de « L’art équestre »", "correct": false},
+        {"réponse": "L’inventeur du mors éponyme", "correct": false},
+        {"réponse": "L’auteur de la maxime « mains sans jambes, jambes sans mains »", "correct": true},
+        {"réponse": "L’auteur de la phrase « Demander souvent; se contenter de peu; récompenser beaucoup. »", "correct": false}
+        ]
+    },
+    {
+        "question": "Après une séance de travail, je dois",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Rentrer vite au chaud me changer", "correct": false},
+        {"réponse": "Laisser mon cheval sécher dans le vent", "correct": false},
+        {"réponse": "Curer les pieds de mon cheval", "correct": true},
+        {"réponse": "Vérifier scrupuleusement qu’il n’y a pas de plaie de harnachement", "correct": true},
+        {"réponse": "Inspecter ses tendons", "correct": true},
+        {"réponse": "Lui faire boire beaucoup d’eau fraîche", "correct": false}
+        ]
+    },
+    {
+        "question": "Que sont les coins ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Les angles d’une pièce", "correct": true},
+        {"réponse": "Une partie de dent qui tombe à 3 ans", "correct": true},
+        {"réponse": "De petits os situés dans le tarse", "correct": false},
+        {"réponse": "Des fruits jaunes", "correct": false}
+        ]
+    },
+    {
+        "question": "Qui est l’auteur de la célèbre maxime « Calme, en avant et droit » ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le général de L’Hotte", "correct": true},
+        {"réponse": "Bartabas", "correct": false},
+        {"réponse": "Baucher", "correct": false},
+        {"réponse": "Jérôme Garcin", "correct": false},
+        {"réponse": "François Nourissier", "correct": false}
+        ]
+    },
+    {
+        "question": "Après la mise bas, le poulain, en général :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Se roule dans la paille pour se sécher", "correct": false},
+        {"réponse": "Est longuement léché par sa mère", "correct": true},
+        {"réponse": "Se met debout en une journée environ", "correct": false},
+        {"réponse": "Se met debout en moins d’une heure", "correct": true}
+        ]
+    },
+    {
+        "question": "Que signifie le verbe « paddocker » ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Pour un cheval, refuser de faire un parcours en « embarquant » son cavalier vers la porte (donc le paddock)", "correct": true},
+        {"réponse": "Pour un cavalier, échauffer son cheval au paddock avant un parcours", "correct": false},
+        {"réponse": "Passer la herse pour améliorer le sol du paddock", "correct": false}
+        ]
+    },
+    {
+        "question": "Des tendons sains sont :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Fins, secs et lisses", "correct": true},
+        {"réponse": "Epais, mous et tièdes", "correct": false}
+        ]
+    },
+    {
+        "question": "En concours de saut d’obstacles (CSO) et en cross, les obstacles :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le fanion rouge est à droite, le blanc à gauche", "correct": true},
+        {"réponse": "Ont un sens de franchissement en CSO", "correct": true},
+        {"réponse": "Ont un sens de franchissement imposé en CSO, pas en Cross", "correct": false},
+        {"réponse": "Peuvent être franchis dans les deux sens", "correct": false},
+        {"réponse": "Le fanion rouge est à gauche, le blanc à droite", "correct": false}
+        ]
+    },
+    {
+        "question": "En dressage de haute école, on rencontre le piaffer et le passage. Cocher toutes les affirmations justes :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le passage est une sorte de pas sur place", "correct": false},
+        {"réponse": "Le passage est une allure intermédiaire entre le trot rassemblé et le piaffer", "correct": true},
+        {"réponse": "Pour les deux, il s’agit d’une allure symétrique, sautée, à deux temps", "correct": true},
+        {"réponse": "Le passage est plus lent que le piaffer", "correct": false},
+        {"réponse": "Le piaffer est une sorte de trot sur place", "correct": true}
+        ]
+    },
+    {
+        "question": "A quoi correspond le jarret du cheval chez l’homme ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "À rien", "correct": false},
+        {"réponse": "À la hanche", "correct": false},
+        {"réponse": "À la cheville", "correct": true},
+        {"réponse": "Au genou", "correct": false}
+        ]
+    },
+    {
+        "question": "Chez le cheval, l’ingestion de moins de 10 grammes d’if peut entraîner la mort.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": false},
+        {"réponse": "vrai", "correct": true}
+        ]
+    },
+    {
+        "question": "En cross, quels types d’obstacles peut-on rencontrer ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Des obstacles verticaux", "correct": false},
+        {"réponse": "Des obstacles de volée", "correct": true},
+        {"réponse": "Des obstacles directionnels", "correct": true},
+        {"réponse": "Des obstacles panoramiques", "correct": true},
+        {"réponse": "Des obstacles botaniques", "correct": false}
+        ]
+    },
+    {
+        "question": "Quelle est la longueur moyenne d’une foulée de galop ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "1.5 m", "correct": false},
+        {"réponse": "3.50 m", "correct": true},
+        {"réponse": "1 m", "correct": false},
+        {"réponse": "6 m", "correct": false}
+        ]
+    },
+    {
+        "question": "Dans cette liste, quels noms désignent des enrênements ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le collier de chasse", "correct": false},
+        {"réponse": "La croupière", "correct": false},
+        {"réponse": "La gogue", "correct": true},
+        {"réponse": "Les élastiques", "correct": true},
+        {"réponse": "La muserolle allemande", "correct": false},
+        {"réponse": "La martingale", "correct": true}
+        ]
+    }
+]
+}

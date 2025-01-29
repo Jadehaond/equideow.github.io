@@ -1,0 +1,281 @@
+{
+    "quiz_title": "GALOP 4 - Quiz : Connaissances sur les chevaux",
+    "questions": [
+      {
+        "question": "Combien dénombre t-on de races chevalines aujourd'hui ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Entre 50 et 99", "correct": false },
+          { "réponse": "Entre 0 et 49", "correct": false },
+          { "réponse": "Plus de 100", "correct": true }
+        ]
+      },
+      {
+        "question": "Un excès de pommes peut-il provoquer des coliques ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "Une constellation porte le nom d'un célèbre cheval mythologique. Quel est son nom ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Bayard", "correct": false },
+          { "réponse": "Pégase", "correct": true },
+          { "réponse": "Arion", "correct": false },
+          { "réponse": "Mduse", "correct": false }
+        ]
+      },
+      {
+        "question": "Pour sauter un obstacle, je dois :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Déchausser mes étriers", "correct": false },
+          { "réponse": "Fermer les yeux", "correct": false },
+          { "réponse": "Lâcher les rênes", "correct": false },
+          { "réponse": "Placer mon cheval au milieu", "correct": true }
+        ]
+      },
+      {
+        "question": "Que signifie le terme cheval semi-sauvage ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Un cheval domestiqué retourné à l'état sauvage", "correct": true },
+          { "réponse": "Un cheval très fougueux", "correct": false },
+          { "réponse": "Un cheval dont l'un des parents est sauvage", "correct": false }
+        ]
+      },
+      {
+        "question": "Mon cheval est au trot. Je voudrais repasser au pas. Que dois-je faire ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Tirer sur les rênes", "correct": false },
+          { "réponse": "Donner des coups de talon", "correct": false },
+          { "réponse": "Lâcher les rênes", "correct": false },
+          { "réponse": "Prier", "correct": false },
+          { "réponse": "Redresser le buste", "correct": true }
+        ]
+      },
+      {
+        "question": "Un zébroïde est issu de l'union de...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Ça n'existe pas", "correct": false },
+          { "réponse": "Un zèbre et un cheval", "correct": true },
+          { "réponse": "Un âne et une jument", "correct": false },
+          { "réponse": "Un zèbre et un poney", "correct": false }
+        ]
+      },
+      {
+        "question": "En balade, dois-je respecter le code de la route ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Le mors se place...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "sur la langue", "correct": true },
+          { "réponse": "sous la langue", "correct": false }
+        ]
+      },
+      {
+        "question": "Quelle est la cause de mortalité la plus fréquente chez les chevaux ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "L'intoxication avec le pin", "correct": false },
+          { "réponse": "Les coliques", "correct": true },
+          { "réponse": "Le choléstérol", "correct": false },
+          { "réponse": "Le diabète", "correct": false }
+        ]
+      },
+      {
+        "question": "",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "", "correct": false },
+          { "réponse": "", "correct": false },
+          { "réponse": "", "correct": true }
+        ]
+      },
+      {
+        "question": "Certaines vaccinations sont obligatoires pour participer à des compétitions équines :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Le fourche des foins", "correct": false },
+          { "réponse": "La rage", "correct": true },
+          { "réponse": "les dents de Symisque", "correct": false },
+          { "réponse": "Le rhume", "correct": false },
+          { "réponse": "La grippe équine", "correct": true }
+        ]
+      },
+      {
+        "question": "Que faut-il faire pour passer à l'allure supérieure ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Utiliser les mollets", "correct": true },
+          { "réponse": "Lâcher les rênes", "correct": false },
+          { "réponse": "Frapper violemment le cheval avec la cravache ou les éperons", "correct": false }
+        ]
+      },
+      {
+        "question": "Ai-je le droit de caresser mon cheval pendant une reprise ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "La qualité du sol sur lequel travaille le cheval a une importance capitale, cochez les affirmations justes :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Un sol profond fatigue les tendons", "correct": true },
+          { "réponse": "Un sol collant qui forme des paquets sous le pied du cheval permet de mieux amortir les chocs", "correct": false },
+          { "réponse": "Un sol dur fatigue les articulations", "correct": true },
+          { "réponse": "Un sol mixte est néfaste au cheval car il fatigue à la fois les tendons et les articulations", "correct": false },
+          { "réponse": "La fourchette a un rôle d’amortisseur, elle doit être dégagée pour bien fonctionner", "correct": true }
+        ]
+      },
+      {
+        "question": "Pour passer du trot au galop, mon cheval doit obligatoirement repasser par le pas.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "Doit-on dessangler un cheval lorsqu'une personne est en train de le monter ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": false },
+          { "réponse": "Non", "correct": true }
+        ]
+      },
+      {
+        "question": "Je dois nettoyer le box de mon cheval...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Tous les deux jours", "correct": false },
+          { "réponse": "Seulement quand il me le demande", "correct": false },
+          { "réponse": "Chaque jour", "correct": true },
+          { "réponse": "Une fois par semaine", "correct": false }
+        ]
+      },
+      {
+        "question": "Peut-on faire trotter son cheval tout en restant assis ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Combien mesurait le plus grand cheval au garrot ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "nviron 1.8 mètre", "correct": false },
+          { "réponse": "Plus de 2 mètres", "correct": true },
+          { "réponse": "Environ 1.9 mètre", "correct": false }
+        ]
+      },
+      {
+        "question": "Peut-on régler ses étriers tout en étant à cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Je peux nettoyer les saletés tassées sous les sabots avec une brosse douce.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Vrai", "correct": false },
+          { "réponse": "Faux", "correct": true }
+        ]
+      },
+      {
+        "question": "Je peux nettoyer les saletés tassées sous les sabots avec une brosse douce.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Aplatie", "correct": true },
+          { "réponse": "En poudre", "correct": false },
+          { "réponse": "Ecrasée", "correct": false },
+          { "réponse": "Concassée", "correct": true }
+        ]
+      },
+      {
+        "question": "Un cheval peut-il attraper le tétanos ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Seulement s'il est aigri", "correct": false },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "À quelle fréquence un cheval devrait-il être tondu ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Une fois par semaine", "correct": false },
+          { "réponse": "Une fois par an", "correct": true },
+          { "réponse": "Une fois par mois", "correct": false },
+          { "réponse": "Jamais", "correct": false },
+          { "réponse": "Une fois par jour", "correct": false }
+        ]
+      },
+      {
+        "question": "À quelle fréquence faut-il vermifuger un cheval adulte ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Trois à quatre fois par a", "correct": true },
+          { "réponse": "Une fois dans la vie du cheval", "correct": false },
+          { "réponse": "Tous les mois", "correct": false },
+          { "réponse": "Tous les ans", "correct": false }
+        ]
+      },
+      {
+        "question": "Un cheval ne doit pas boire beaucoup d'eau froide d'une seule traite s'il transpire.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Vrai", "correct": true },
+          { "réponse": "Faux", "correct": false }
+        ]
+      },
+      {
+        "question": "À quoi sert la vermifugation ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "À desherber le pré où broute le cheval", "correct": false },
+          { "réponse": "À débarasser le cheval des parasites qui squattent son intesti", "correct": true },
+          { "réponse": "À désinfecter les box où dorment les chevaux", "correct": false }
+        ]
+      },
+      {
+        "question": "L’expression « tire au flanc",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Désigne le soulèvement des flancs du cheval dont la respiration est gênée par un emphysème", "correct": false },
+          { "réponse": "Vient du fait que les soldats visaient le flanc du cheval du temps de la cavalerie", "correct": false },
+          { "réponse": "Désigne quelqu’un de paresseux", "correct": true },
+          { "réponse": "Vient du fait que les chevaux souffrant d’emphysème, à l’époque de la cavalerie étant considérés comme « bon à rien ».", "correct": false }
+        ]
+      },
+      {
+        "question": "Quel est l'un des facteurs essentiels de la forme et de l'équilibre du cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Le travai", "correct": true },
+          { "réponse": "Le repos", "correct": false },
+          { "réponse": "Une nourriture abondante", "correct": false }
+        ]
+      }
+    ]
+}

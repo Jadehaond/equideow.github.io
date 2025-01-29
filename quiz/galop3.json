@@ -1,0 +1,169 @@
+{
+    "quiz_title": "GALOP 3 - Quiz : Connaissances sur les chevaux (19)",
+    "questions": [
+      {
+        "question": "Dans quel ordre faudrait-il utiliser ces brosses pour réaliser un pansage efficace ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Bouchon - brosse douce - étrille", "correct": false },
+          { "réponse": "Étrille - brosse douce - bouchon", "correct": false },
+          { "réponse": "Étrille - bouchon - brosse douce", "correct": true }
+        ]
+      },
+      {
+        "question": "Lorsque l'on parle d'un cheval, on dit qu'il a...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Des membres sauteurs", "correct": false },
+          { "réponse": "Des référentiels bondissants", "correct": false },
+          { "réponse": "Des jambes", "correct": true }
+        ]
+      },
+      {
+        "question": "Existe-t-il des dentistes pour les chevaux ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Quelles sont les dernières vérifications à réaliser avant de monter à cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Vérifier que le cheval est allé à la selle", "correct": false },
+          { "réponse": "Vérifier le sanglage", "correct": true },
+          { "réponse": "Inspecter les dents du cheval", "correct": false },
+          { "réponse": "Vérifier la longueur des étriers", "correct": true }
+        ]
+      },
+      {
+        "question": "Quelles sont les règles de sécurité lors d'une reprise ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Il n'y en a pas", "correct": false },
+          { "réponse": "Garder une distance de sécurité de la taille d'un cheval", "correct": true },
+          { "réponse": "Serrer les chevaux les uns contre les autres", "correct": false }
+        ]
+      },
+      {
+        "question": "Le cheval ne doit être nourri qu'une seule fois par jour.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": true },
+          { "réponse": "Vrai", "correct": false }
+        ]
+      },
+      {
+        "question": "À quoi est directement relié le mors ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Au cavalier", "correct": false },
+          { "réponse": "Aux rênes", "correct": true },
+          { "réponse": "À la martingale à anneaux", "correct": false },
+          { "réponse": "Aux montants du filet", "correct": true }
+        ]
+      },
+      {
+        "question": "Le cheval est-il un animal plutôt craintif ou agressif de nature ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Craintif", "correct": true },
+          { "réponse": "Agressif", "correct": false }
+        ]
+      },
+      {
+        "question": "Le pas est une allure qui comporte quatre temps ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Ça dépend de la race du cheval", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "La ration journalière du cheval est principalement déterminée à partir de son poids et de son travail.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Vrai", "correct": true },
+          { "réponse": "Faux", "correct": false }
+        ]
+      },
+      {
+        "question": "Combien mesurait la crinière la plus longue ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "5.5 m", "correct": true },
+          { "réponse": "2.4 m", "correct": false },
+          { "réponse": "4.2 m", "correct": false }
+        ]
+      },
+      {
+        "question": "Une pouliche est une jument de :",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "- de 4 ans", "correct": true },
+          { "réponse": "+ de 4 ans", "correct": false }
+        ]
+      },
+      {
+        "question": "Est-il important de mettre des abreuvoirs pour les chevaux dans les prés lorsqu'il n'y a pas de point d'eau naturel ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "Deux chevaux qui se mordillent s'entendent bien.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Vrai", "correct": true },
+          { "réponse": "Faux", "correct": false }
+        ]
+      },
+      {
+        "question": "Laquelle de ces parties du corps humain n'existe pas chez le cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Le ventre", "correct": false },
+          { "réponse": "La tête", "correct": false },
+          { "réponse": "Les orteils", "correct": true }
+        ]
+      },
+      {
+        "question": "Lorsque j'enlève la selle de mon cheval, je dois...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Remonter les étriers", "correct": true },
+          { "réponse": "Poser la selle par terre", "correct": false },
+          { "réponse": "Placer la sangle sur la selle pour la transporter", "correct": true }
+        ]
+      },
+      {
+        "question": "Avant l'invention de la machine à vapeur, le cheval était le principal mode de transport pour les humains.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "L'étrille doit-elle être passée avec des mouvements circulaires ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Est-il obligatoire de laver la selle après chaque utilisation ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": false },
+          { "réponse": "Non", "correct": true }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,189 @@
+{
+    "quiz_title": "GALOP 6 - Quiz : Connaissez-vous les chevaux ? (19)",
+    "questions": [
+    {
+        "question": "Quelle est la meilleure saison pour tondre un cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "L'hiver", "correct": false},
+        {"réponse": "Le printemps", "correct": false},
+        {"réponse": "L'été", "correct": false},
+        {"réponse": "L'automne", "correct": true}
+        ]
+    },
+    {
+        "question": "Un cheval doit obligatoirement être ferré.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": true},
+        {"réponse": "Vrai", "correct": false}
+        ]
+    },
+    {
+        "question": "Le mulet est issu du croisement entre :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Un zèbre et une jument", "correct": false},
+        {"réponse": "Un cheval et une anesse", "correct": false},
+        {"réponse": "Un cheval et un hippocampe", "correct": false},
+        {"réponse": "Un âne et une jument", "correct": true}
+        ]
+    },
+    {
+        "question": "Mon cheval vient de transpirer. Je peux:",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le laisser sécher avec le vent", "correct": false},
+        {"réponse": "Le brosser avec de la paille", "correct": true}
+        ]
+    },
+    {
+        "question": "Laquelle de ces parties de la tête du cheval n'est pas commune avec l'être humain ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La barbe", "correct": false},
+        {"réponse": "La nuque", "correct": false},
+        {"réponse": "Le front", "correct": false},
+        {"réponse": "La moustache", "correct": true}
+        ]
+    },
+    {
+        "question": "À quoi sert le couteau de chaleur ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "À essorer le poil", "correct": true},
+        {"réponse": "À rien", "correct": false},
+        {"réponse": "À couper les membres inutiles du cheval", "correct": false},
+        {"réponse": "À couper les poils du cheval", "correct": false}
+        ]
+    },
+    {
+        "question": "Lors du toilettage, il est important de couper les poils situés à l'intérieur des oreilles du cheval.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": true},
+        {"réponse": "Vrai", "correct": false}
+        ]
+    },
+    {
+        "question": "Où se trouve la muserolle ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Sur les étriers", "correct": false},
+        {"réponse": "Sur la bombe", "correct": false},
+        {"réponse": "Sur le filet", "correct": true},
+        {"réponse": "Sur la selle", "correct": false}
+        ]
+    },
+    {
+        "question": "Le galop est au moins trois fois plus rapide que le pas.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": false},
+        {"réponse": "Ça dépend de la race du cheval", "correct": false},
+        {"réponse": "Vrai", "correct": true}
+        ]
+    },
+    {
+        "question": "",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "", "correct": false},
+        {"réponse": "", "correct": true},
+        {"réponse": "", "correct": false}
+        ]
+    },
+    {
+        "question": "Il est important d'échauffer le cheval avant de le faire travailler.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Vrai", "correct": true},
+        {"réponse": "Faux", "correct": false}
+        ]
+    },
+    {
+        "question": "La domestication du cheval a commencé il y a :",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "5000 à 6000 ans", "correct": true},
+        {"réponse": "4000 ans", "correct": false},
+        {"réponse": "Moins de 3000 ans", "correct": false}
+        ]
+    },
+    {
+        "question": "Quelle est la particularité des brides western ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Elles sont souvent très décorées", "correct": true},
+        {"réponse": "Elles ne comprennent pas de muserolle", "correct": true},
+        {"réponse": "Elles ne comprennent pas de sous-gorge", "correct": false}
+        ]
+    },
+    {
+        "question": "Quand faut-il graisser les pieds de son cheval ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Une fois par an", "correct": false},
+        {"réponse": "Une à deux fois par semaine", "correct": true},
+        {"réponse": "Une fois par mois", "correct": false}
+        ]
+    },
+    {
+        "question": "Quel surnom donne t-on parfois au cheval camarguais ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Le cheval des fleuves", "correct": false},
+        {"réponse": "Le cheval gris", "correct": false},
+        {"réponse": "Le cheval blanc", "correct": false},
+        {"réponse": "Le cheval de la mer", "correct": true}
+        ]
+    },
+    {
+        "question": "Le pansage favorise la respiration de la peau.",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Faux", "correct": false},
+        {"réponse": "Vrai", "correct": true}
+        ]
+    },
+    {
+        "question": "Pourquoi utilise t-on de la litière dans un box ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Pour permettre au cheval de manger la nuit", "correct": false},
+        {"réponse": "Pour favoriser la respiration du cheval", "correct": false},
+        {"réponse": "Pour protéger le cheval contre les bactéries cellophages", "correct": false},
+        {"réponse": "Pour permettre au cheval de dormir plus confortablement ", "correct": true},
+        {"réponse": "Pour absorber l'urine", "correct": true}
+        ]
+    },
+    {
+        "question": "Un élevage à une étoile",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Ne comporte que des chevaux ayant une étoile d’excellence", "correct": false},
+        {"réponse": "Peut regrouper plusieurs races", "correct": false},
+        {"réponse": "N’est soumis à aucune condition pour l’être", "correct": false},
+        {"réponse": "Ne peut être qu’un élevage de pure race", "correct": true}
+        ]
+    },
+    {
+        "question": "Qu'est-ce qu'un megissier ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "Un couteau à lame arrondie", "correct": false},
+        {"réponse": "Une petite pièce de bois servant à la confection d’un collier", "correct": false},
+        {"réponse": "Celui qui prépare les cuirs pour le bourrelier", "correct": true}
+        ]
+    },
+    {
+        "question": "Lorsque je suis dans un manège, laquelle de ces figures m'est-il impossible de réaliser ?",
+        "type": "radio",
+        "réponses": [
+        {"réponse": "La perpendiculaire", "correct": true},
+        {"réponse": "La volte", "correct": false},
+        {"réponse": "La diagonale", "correct": false}
+        ]
+    }    
+    ]
+}

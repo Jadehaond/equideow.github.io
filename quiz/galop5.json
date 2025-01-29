@@ -1,0 +1,229 @@
+{
+    "quiz_title": "GALOP 5 - Quiz : Connaissances sur les chevaux (26)",
+    "questions": [
+      {
+        "question": "Les crins des chevaux de robe bai sont noirs.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "Que sont les gymkhana ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Une discipline de gymnastique à cheval", "correct": false },
+          { "réponse": "Des épreuves de course et de jeu à cheval", "correct": true },
+          { "réponse": "Un jeu équestre mongol", "correct": false }
+        ]
+      },
+      {
+        "question": "Comment appelle t-on une marque blanche sur un membre ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Une balzane", "correct": true },
+          { "réponse": "Une tache", "correct": false },
+          { "réponse": "Une tache de naissance", "correct": false }
+        ]
+      },
+      {
+        "question": "Parmi ces races de chevaux, laquelle n'est pas celle d'un cheval lourd ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Le Percheron", "correct": false },
+          { "réponse": "Le Jutland", "correct": false },
+          { "réponse": "Le Waler", "correct": true }
+        ]
+      },
+      {
+        "question": "Faudrait-il laver le mors après chaque usage ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "Lesquelles de ces parties se trouvent sur une selle ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Le poirier", "correct": false },
+          { "réponse": "La sangle", "correct": true },
+          { "réponse": "Le pommeau", "correct": true },
+          { "réponse": "Le siège", "correct": true }
+        ]
+      },
+      {
+        "question": "Lorsque je suis en balade, ai-je le droit d'utiliser la route ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Oui", "correct": true },
+          { "réponse": "Non", "correct": false }
+        ]
+      },
+      {
+        "question": "Peut-on faire galoper son cheval en balade ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Non", "correct": false },
+          { "réponse": "Oui", "correct": true }
+        ]
+      },
+      {
+        "question": "Combien de temps dure la gestation chez les juments ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "11 mois", "correct": true },
+          { "réponse": "1O mois", "correct": false },
+          { "réponse": "12 mois", "correct": false }
+        ]
+      },
+      {
+        "question": "Pour faire tourner mon cheval, je dois...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Utiliser mes jambes", "correct": false },
+          { "réponse": "Utiliser les rênes", "correct": true },
+          { "réponse": "Crier « droite » ou « gauche", "correct": false }
+        ]
+      },
+      {
+        "question": "Qu'est-ce que le bardot ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Un cheval qui perd ses poils", "correct": false },
+          { "réponse": "L'animal né du croisement entre un cheval et une ânesse", "correct": true },
+          { "réponse": "Une maladie fatale pour le cheval", "correct": false }
+        ]
+      },
+      {
+        "question": "Qu'est-ce qu'une têtière ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Une friandise pour les chevaux", "correct": false },
+          { "réponse": "Une partie du harnais qui passe sur la nuque du cheval", "correct": true },
+          { "réponse": "Un appareil permettant de sevrer les poulains", "correct": false },
+          { "réponse": "Le nom d'un biberon pour les poulains", "correct": false }
+        ]
+      },
+      {
+        "question": "Quelle petite diférence existe t-il entre la corne noire et la corne blanche des chevaux?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "l'une est plus dure que l'autre", "correct": false },
+          { "réponse": "l'une est plus souple que l'autre", "correct": false },
+          { "réponse": "l'une est plus souple que l'autre", "correct": true }
+        ]
+      },
+      {
+        "question": "Quels termes parmi les suivants désignent une pathologie du pied ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Les pointes de feu", "correct": false },
+          { "réponse": "Bleime ", "correct": true },
+          { "réponse": "Seime ", "correct": true },
+          { "réponse": "Fourmilière", "correct": true },
+          { "réponse": "Encastelure", "correct": true }
+        ]
+      },
+      {
+        "question": "Quels termes parmi les suivant désignent une partie du fer ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Les pinçons", "correct": true },
+          { "réponse": "Le grain d’orge", "correct": false },
+          { "réponse": "L’éponge", "correct": true },
+          { "réponse": "Le chiffon", "correct": false },
+          { "réponse": "Le fil d’argent", "correct": false }
+        ]
+      },
+      {
+        "question": "Lorsque le cheval ne vit pas au pré, la corne du pied se dessèche et a donc besoin d'être graissée régulièrement.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "Comme les ongles des êtres humains, les sabots d'un poney poussent sans cesse.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "En coupant le(s) pinçon(s) auparavant, il arrive que le maréchal pose les fers à l’envers.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": false },
+          { "réponse": "Vrai", "correct": true }
+        ]
+      },
+      {
+        "question": "Le cheval souffre lorsque l'on enfonce des clous dans la corne.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Faux", "correct": true },
+          { "réponse": "Vrai", "correct": false }
+        ]
+      },
+      {
+        "question": "Les fers doivent être remplacés...",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "tous les 2 mois", "correct": false },
+          { "réponse": "ous les ans", "correct": false },
+          { "réponse": "tous les 4 à 6 semaines", "correct": false }
+        ]
+      },
+      {
+        "question": "Quelles sont les règles de sécurité que l'on doit respecter lorsque l'on est avec un cheval ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Être prudent dans tous ses contacts avec les chevaux", "correct": true },
+          { "réponse": "Laisser de jeunes enfants jouer à côté d'un cheval attaché", "correct": false },
+          { "réponse": "Laisser traîner des objets coupants près d'un cheval", "correct": false }
+        ]
+      },
+      {
+        "question": "De combien de centimètres la corne pousse t-elle chaque mois ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "1 cm", "correct": true },
+          { "réponse": "1.5 cm", "correct": false },
+          { "réponse": "0.5 cm", "correct": false }
+        ]
+      },
+      {
+        "question": "Environ quelle taille mesurait le plus petit cheval au garrot ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "20 cm", "correct": false },
+          { "réponse": "40 cm", "correct": true },
+          { "réponse": "30 cm", "correct": false }
+        ]
+      },
+      {
+        "question": "La corne des sabots doit être raccourcie périodiquement.",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "Vrai", "correct": true },
+          { "réponse": "Faux", "correct": false }
+        ]
+      },
+      {
+        "question": "Quels termes parmi les suivants désignent une ferrure orthopédique ou un élément de ferrure orthopédique ?",
+        "type": "radio",
+        "réponses": [
+          { "réponse": "L'egg bar shoe", "correct": false },
+          { "réponse": "La talonnette", "correct": true },
+          { "réponse": "Les fers à traverse", "correct": true },
+          { "réponse": "Le fer à pantoufle", "correct": true },
+          { "réponse": "La bricole", "correct": false }
+        ]
+      }
+    ]
+}
