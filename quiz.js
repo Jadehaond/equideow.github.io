@@ -37,51 +37,49 @@ function loadQuiz(galop) {
                 });
             });
 
-       // Ajouter le bouton Valider
-       const validateButton = document.createElement('button');
-       validateButton.innerHTML = 'Valider';
-       validateButton.classList.add('quiz-btn-validate');
+            // Ajouter le bouton Valider
+            const validateButton = document.createElement('button');
+            validateButton.innerHTML = 'Valider';
+            validateButton.classList.add('quiz-btn-validate');
 
-       // Cibler le div spécifique pour le bouton et ajouter le bouton à ce div
-       const validateBtnContainer = document.getElementById('quiz-validate-btn-container');
-       validateBtnContainer.appendChild(validateButton);
+            // Cibler le div spécifique pour le bouton et ajouter le bouton à ce div
+            const validateBtnContainer = document.getElementById('quiz-validate-btn-container');
+            validateBtnContainer.appendChild(validateButton); // Ajouter le bouton seulement ici
 
-       quizContainer.appendChild(validateButton);
+            // Gestionnaire d'événements pour le bouton "Valider"
+            validateButton.addEventListener('click', () => {
+                let wrongAnswers = 0;
 
-       // Gestionnaire d'événements pour le bouton "Valider"
-       validateButton.addEventListener('click', () => {
-           let wrongAnswers = 0;
+                // Parcourir chaque question pour vérifier les réponses
+                data.questions.forEach((questionData, index) => {
+                    const selectedAnswer = document.querySelector(`input[name="q${index + 1}"]:checked`);
+                    
+                    // Si aucune réponse n'est sélectionnée
+                    if (selectedAnswer) {
+                        // Récupérer la réponse qui a été sélectionnée
+                        const selectedAnswerValue = selectedAnswer.value;
 
-           // Parcourir chaque question pour vérifier les réponses
-           data.questions.forEach((questionData, index) => {
-               const selectedAnswer = document.querySelector(`input[name="q${index + 1}"]:checked`);
-               
-               // Si aucune réponse n'est sélectionnée
-               if (selectedAnswer) {
-                // Récupérer la réponse qui a été sélectionnée
-                const selectedAnswerValue = selectedAnswer.value;
-    
-                // Trouver la réponse correcte dans les réponses de la question
-                const correctAnswer = questionData.réponses.find(r => r.correct === true);
-    
-                // Vérifier si la réponse sélectionnée est correcte
-                if (selectedAnswerValue === correctAnswer.réponse) {
-                    correctAnswers++;
+                        // Trouver la réponse correcte dans les réponses de la question
+                        const correctAnswer = questionData.réponses.find(r => r.correct === true);
+
+                        // Vérifier si la réponse sélectionnée est correcte
+                        if (selectedAnswerValue === correctAnswer.réponse) {
+                            correctAnswers++;
+                        } else {
+                            wrongAnswers++;
+                        }
+                    } else {
+                        wrongAnswers++; // Si aucune réponse sélectionnée, considérer comme fausse
+                    }
+                });
+
+                // Afficher le résultat
+                if (wrongAnswers >= 4) {
+                    alert("Perdu ! Tu as " + wrongAnswers + " erreurs.");
                 } else {
-                    wrongAnswers++;
+                    alert("Gagné ! Tu as " + correctAnswers + " bonnes réponses.");
                 }
-               } else {
-                wrongAnswers++; // Si aucune réponse sélectionnée, considérer comme fausse
-               }
-           });
-
-           // Afficher le résultat
-           if (wrongAnswers >= 4) {
-               alert("Perdu ! Tu as " + wrongAnswers + " erreurs.");
-           } else {
-               alert("Gagné ! Tu as " + correctAnswers + " bonnes réponses.");
-           }
-       });
-   })
-   .catch(error => console.error('Erreur lors du chargement du quiz :', error));
+            });
+        })
+        .catch(error => console.error('Erreur lors du chargement du quiz :', error));
 }
