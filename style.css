@@ -2,9 +2,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(#a0af3c, #697513);
-    width: 100%;
-    height: 100%;
+    background: linear-gradient(#a1b03f, #7e8a26, #697513);
+    height: 100vh;
+    background-attachment: fixed;
   }
   
   .container {
@@ -245,28 +245,79 @@ body, html {
   
   /* QUIZ */
 
-  .btn-titre {
-    
+  #quiz-container {
+    background-color: #e5e08d; 
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 50px;
+  }
+  
+  #quiz-header {
+    color: #843407; 
+    width: 100%;
+    padding-top: 50px;
+    border-radius: 10px;
+    height: 100px;
   }
 
-  .btn-quiz {
-    display: inline-block; 
+  #quiz-header ul {
+    background-color: #e5e08d; 
+    border-radius: 8px;
+    list-style: none;
+    display: flex;
+    height: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+  }
+
+  #quiz-header li button {
+    background-color: #e5e08d; 
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  #quiz-header li:hover, #quiz-header li button:hover {
+    background-color: #f8d480;
+    height: 100%;
+  }
+
+  .quiz-btn-validate {
+    display: flex;
+    background-color: #843407;
+    border: none;
+    border-radius: 8px;    
+    height: 30px;   
     padding: 10px 20px; 
-    background-color: #c9d8b6; 
-    border-radius: 5px; 
-    text-align: center; 
-    margin: 5px;
+    
+    cursor: pointer;
+    margin: 40px;
+    color: white;   
+    transition: background-color 0.3s ease;
   }
 
-  .btn-container {
-    background-color: #e3dfb1; 
-    width: 80%;
-    padding: 20px;
-    margin: 0 auto;
+  .btn-validate:hover {
+    background-color: #45a049;
   }
 
-  .quiz-container {
-    background-color: #c9d8b6; 
-    border-radius: 5px; 
-    text-align: center; 
+  .btn-validate:active {
+    transform: scale(0.98);
+  }
+
+  .btn-validate:focus {
+    outline: none;
+  }
+
+  #quiz-footer {
+    height: 30px;
+  }
+
+  #quiz-validate-btn-container { 
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
   }
