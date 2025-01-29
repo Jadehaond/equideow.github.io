@@ -1,0 +1,241 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#a0af3c, #697513);
+  }
+  
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* MENU */
+
+  .menu { 
+    display: flex;
+    justify-content: flex-end;
+    gap: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .menu-button {
+    padding: 8px 40px;
+    background-color: #dce098;
+    border: none;
+    color: #697513;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background: linear-gradient(#e6efae, #d6e285, #ffffff, #e6efae);
+    border-bottom: 1px solid #697513; /* Bordure de 2px d'épaisseur */
+    box-shadow: 0px 0px 5px #697513; /* Ombre autour de la div */
+  }
+
+  .menu-button-cut {
+    border-bottom-left-radius: 50px;
+  }
+  
+  .menu-button:hover {
+    background-color: #697513;
+    color: #ffffff;
+  }
+
+  
+  /* HEADER */
+  .header {
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-height: 150px;
+  }
+  
+  /* EQUIDEOW LOGO */
+  .logo-section {
+    width: 40%;
+    object-fit: fill;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* LOGIN */
+  .login-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: #ffffff;
+    font-size: 14px;
+    width: 55%;
+  }
+
+  .login-section-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    column-gap: 20px;
+    height: 20%;
+  }
+
+  .login-section-img {
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .input-field {
+    padding: 1px;
+    width: 16%;
+    border: 1px solid #697513;
+    background-color: #788816;
+    margin: 0px 5px;
+    max-width: 100px;
+    height: 20%;
+    max-height: 75px;
+  }
+
+  .login-connexion-btn {
+    color: #ffffff; 
+    border: 1px solid #ffffff; /* Bordure de 2px d'épaisseur */
+    border-bottom-right-radius: 30%; 
+    border-top-right-radius: 30%; 
+    background-color:#697513; 
+    cursor: pointer; 
+    display: flex; 
+    width: 25%;
+    max-width: 120px;
+  }
+
+  /* MAIN */
+  .main-body-section {  
+    display: flex; 
+    justify-content: flex-start;
+    height: 40%;
+    max-height: 900px;
+  }
+
+  .main-body-1eme-2eme {
+    height: 60%;
+    max-height: 500px;
+    position: relative;
+    gap: 25px;
+  }
+
+  .main-body-block-cheval-img {
+    position: absolute;
+    left: 0; 
+    bottom:0;
+    height: 120%;
+    object-fit: fill; 
+    border: none; 
+    transform: translateY(11%);
+  }
+
+  .body-block {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: linear-gradient(#dce098,#c0c384); 
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #697513; /* Ombre autour de la div */
+  }
+  
+  /* MAIN - LEFT */
+
+  .main-body-left-column {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 25px;
+    width: 68%; 
+    margin-right: 15px;
+  }
+
+  .main-body-block-1eme-height {
+    display: flex;
+    gap: 1px; 
+    height: 55%;
+    justify-content: space-evenly;
+  }
+
+  .left-column-block-1eme {
+    width: 45%;
+    top: 0; 
+    left: 0;
+  }
+
+  .right-column-block-1eme {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-body-block-2eme-height {
+    display: flex;
+    gap: 1px; 
+    height: 45%;
+    justify-content: space-evenly;
+  }
+
+  .left-column-block-2eme {
+    width: 20%;
+    top: 0; 
+    left: 0;
+  }
+
+  .right-column-block-2eme {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .right-column-row-block-2eme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  .main-body-block-3eme-height {
+    width: 100%;
+    max-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 1px; 
+    flex-direction: row;
+    margin-bottom:10px;
+    font-size: 10px;
+  }
+
+  .body-block-3eme {
+    margin-left: 15px;
+    flex: 1;
+    height: 100%; 
+  }
+
+  /* FONT */
+  .p-orange {
+    color: #d97507; /* Couleur du titre */
+  }
+
+  .p-vert {
+    color: #75901b; /* Couleur du titre */
+  }
+
+  .p-darkorange {
+    color:#984b00;
+  }
+
+  .p-darkgreen {
+    color:#a2915d;
+  }
+
+  .placeholder-x {
+    color: grey;
+  }

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equideow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+    <!-- header -->    
+    <div class="header">
+
+        <img src="https://th.bing.com/th/id/R.7184de1fbe70874f8d649326df411d9b?rik=eG7H5BFO5lfI%2fw&riu=http%3a%2f%2fimages.frandroid.com%2fwp-content%2fuploads%2f2014%2f02%2flogo-equideow.png&ehk=629xV7%2brdqDaLasCu7w32uRXrUCsoJw3TPTSZpD5X7A%3d&risl=&pid=ImgRaw&r=0" alt="logo-equideow" class="logo-section">   
+    
+        <div class="login-section">
+
+            <!-- menu -->
+            <div class="menu">
+                <button  class="menu-button menu-button-cut">PORTAIL</button>
+                <button class="menu-button">JEU</button>
+                <button class="menu-button">SHOPPING</button>
+            </div>
+            
+            <div class="login-section-row">
+                <p>Lorem ipsum</p>
+                <img src="https://via.placeholder.com/20" alt="Icône" class="login-section-img">   
+            </div>
+    
+            <div class="login-section-row">
+                <p>Mondes:</p>
+                <label class="login-section-row">
+                    <input type="radio" name="monde" style="cursor: pointer;">
+                    <p>Ouranos</p>
+                    <img src="https://ouranos.equideow.com/media/equideo/image/interface/icon/ouranos-register_v83214523.png" alt="Ouranos-log" class="login-section-img">
+                </label>
+                
+                <label class="login-section-row">
+                    <input type="radio" name="monde" style="cursor: pointer;">
+                    <p>Gaïa</p>
+                    <img src="https://ouranos.equideow.com/media/equideo/image/interface/icon/gaia-register_v83214523.png" alt="gaia-log" class="login-section-img">
+                </label>
+            </div>
+    
+            <div class="login-section-row">
+                <label for="login"><p>Login :</p></label>  
+                <input type="text" id="login" class="input-field" placeholder="Entrez un nom...">
+    
+                <label for="motdepasse"><p>Mot de passe :</p></label>
+                <input type="password" id="motdepasse" class="input-field" placeholder="Entrez un mot de passe...">
+    
+                <button class="login-section-row login-connexion-btn">
+                    Connexion
+                    <img src="https://via.placeholder.com/20" alt="icone-connexion" class="login-section-img">
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main body -->
+    <div class="main-body-section">
+        
+        <div class="main-body-left-column">
+            
+            <div class="main-body-1eme-2eme">
+                 
+                <img src="http://pasdhippophagie.p.a.pic.centerblog.net/ncmw031z.png" alt="Image du Blog pasdhippophagie.centerblog.net" class="main-body-block-cheval-img"/>
+                
+                <div class="body-block main-body-block-1eme-height">
+
+                    <img src="https://via.placeholder.com/100x70.png?text=Cheval+Alezan" alt="cheval-alezan" class="left-column-block-1eme">
+                 
+                    <div class="right-column-block-1eme">
+                        <p>Rejoignez une communauté de 400 000 joueurs, dont 1804 connectés en ce moment même !</p>
+                        <p class="p-orange">Avec Equideow, élevez un ou plusieurs chevaux, et prenez-vous au jeu des responsabilités en dirigeant un centre équestre !</p>
+                        <img src="https://via.placeholder.com/20" alt="Icône" style="border-radius: 15%; width: 100px; height: 10%;">   
+                    </div>
+                </div>
+        
+                <div class="body-block main-body-block-2eme-height">
+
+                    <div class="left-column-block-2eme"></div>
+
+                    <div class="right-column-block-2eme">
+                        
+                        <div class="right-column-row-block-2eme">
+
+                            <div>
+                                <p class="p-orange">Inscription à Equideow</p>
+                                <p>Débutez une partie sur Equideow, choisissez votre premier cheval ou poney, et donnez-lui un nom !</p>
+                            </div>
+                                                            
+                            <div>
+                                <img src="https://via.placeholder.com/50" alt="Cheval">
+                                <p class="p-vert">Un cheval</p>
+                            </div>
+
+                            <div>
+                                <img src="https://via.placeholder.com/50" alt="Poney">
+                                <p class="p-vert">Un poney</p>
+                            </div>
+                        </div>
+
+                        <div class="right-column-row-block-2eme">                
+                            <label for="nom-cheval">Donnez-lui un nom :</label>  
+                            <input type="text" id="nom-cheval">
+                        
+                            <label for="genre">Mâle ou femelle :</label>
+                            <select id="genre">
+                                <option class="placeholder-x">Sexe du Cheval</option>
+                                <option>Mâle</option>
+                                <option>Femelle</option>
+                            </select>
+                        </div>
+                    
+                        <div class="right-column-row-block-2eme">
+                            <p>Mondes:</p>
+                            <input type="radio"/>
+                            <p>Ouranos</p>
+                            <img src="https://ouranos.equideow.com/media/equideo/image/interface/icon/ouranos-register_v83214523.png" alt="ouranos-log" style="border-radius: 50%; width: 20px; height: 20px;">
+                            
+                            <input type="radio"/>
+                            <p>Gaïa</p>
+                            <img src="https://ouranos.equideow.com/media/equideo/image/interface/icon/gaia-register_v83214523.png" alt="gaia-log" style="border-radius: 50%; width: 20px; height: 20px;">
+                            
+                            <button style="padding: 4px; border-radius: 5px; background-color:#697513; color: #ffffff; border: none; cursor: pointer; font-weight: bold;">Continuer l'inscription</button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+
+            <!-- Trois blocs alignés en bas dans la colonne gauche -->
+            <div class="main-body-block-3eme-height">
+                <div class="body-block body-block-3eme">
+                    <div>
+                        <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee_v1713961017.png" alt="trophée1" width="25px" height="25px"/>
+                        <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee_v1713961017.png" alt="trophée1" width="25px" height="25px"/>
+                    </div>
+                    <p style="font-size: 14px;">PRÉSENTATION D'UN ÉLEVEUR</p>
+                    <p class="p-darkorange"><strong>Jadehaond</strong></p>
+                    <p>Nombre de chevaux : 264</p>
+                    <p>Nombre de centres équestres : 1</p>
+                    <p>Ancienneté : 2233 jours</p>
+                    <p>Classement général : 8984</p>
+                </div>
+
+                <div class="body-block body-block-3eme">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee_v1713961017.png" alt="trophée1" width="25px" height="25px"/>
+                    <p style="font-size: 14px;">PRÉSENTATION D'UN CHEVAL</p>
+                    <p class="p-darkorange"><strong>Guépard Otu'hau</strong></p>
+                    <p>Sexe : mâle</p>
+                    <p>Naissance : 25/06/2007</p>
+                    <p>Âge : 12 ans 6 mois</p>
+                    <p>Poids : 48kg | Taille : 160 cm</p>
+                </div>
+
+                <div class="body-block body-block-3eme">
+                    <p style="font-size: 18px;" class="p-darkorange"><strong>Top 5 éleveurs</strong></p>
+                    <p>DE CENTRE EQUESTRE</p>
+
+                    <div style="display: flex; flex-direction: row;">
+                        <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee_v1713961017.png" alt="trophée1" width="25px" height="25px"/>
+                        <p class="darkgreen"><strong>le grand bleu</strong> - 489822</p>
+                    </div>
+                    
+                    <div style="display: flex; flex-direction: row;">
+                        <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee2_v1713961017.png" alt="trophée2" width="25px" height="25px"/>
+                        <p>Guépard - 256152</p>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee3_v1713961017.png" alt="trophée3" width="25px" height="25px"/>
+                        <p>cassia - 392718</p>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <p style="position:absolute;color: #ffffff;">4</p>
+                        <img src="https://ouranos.equideow.com/media/equideo/image/library/bloc/fond-position.png?87938017" alt="trophée4" width="25px" height="25px" style="background-color: #a0a54e;"/>
+                        <p>1anstar - 352410</p>
+                    </div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <p style="position:absolute;color: #ffffff;">5</p>
+                        <img src="https://ouranos.equideow.com/media/equideo/image/library/bloc/fond-position.png?87938017" alt="trophée5" width="25px" height="25px" style="background-color: #a0a54e;"/>
+                        <p>demarco - 326018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Colonne droite -->
+        <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+            
+            <div style="background-color:#bc702e;border-radius: 15px;border:2px solid #bc702e;padding:10px;text-align: right;margin-bottom: 10px;">
+                <p style="color:#ffffff">L'ELEVAGE DE CHEVAUX</p>
+                <div style="margin-bottom:10px;display: flex; justify-content: space-evenly;">
+                    <img src="https://via.placeholder.com/20" alt="Icône Cheval" style="border-radius: 50%; width: 20px; height: 20px;">
+                    <img src="https://via.placeholder.com/20" alt="Icône Cheval" style="border-radius: 50%; width: 20px; height: 20px;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//fonctionnels/20/trophee_v1713961017.png" alt="trophée" style="width: 40px; height: 40px;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image/components/actionconsole/panser_v56025067.png" alt="brosse à cheval" style="filter: sepia(100%); width: 40px; height: 40px;">
+                </div>
+                <p style="color: #984b00;"><strong>Occupez-vous de vos chevaux, puis faites prospérer votre élevage.</strong></p>
+                <p style="color: #984b00;"><strong>Découvrez tout l'univers du cheval dans un jeu passionnant !</strong></p>
+            </div>
+
+            <div style=" margin-bottom: 10px; background-color:#92b521; border-radius: 15px; border: 2px solid #a0a54e; display: flex; flex-direction: column; align-items: center;">
+                <div style="position: relative;"> 
+                    <img src="https://via.placeholder.com/100" alt="Forgeron" style="position: absolute; top: -2px; left: 10px; width: 50px; height: 100%;">   
+
+                    <div style="margin-left: 10px;padding: 10px; text-align: right;">
+                        <p style="color:#ffffff">LA GESTION DE CENTRE ÉQUESTRE</p>
+                        <p style="color: #75901b;"><strong>Laissez-vous prendre au jeu des responsabilités en dirigeant un centre équestre virtuel !</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color: #dce098;border-radius: 15px;border:2px solid #a0a54e;padding:10px;margin-bottom: 10px;">
+                <p style="color: #984b00;">L'ACTUALITÉ DU JEU</p>
+           
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image/produits/60/perle-noire_v1611067508.png" alt="perle noire" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">17 octobre 2007 |</strong> La perle noire est de retour !</p>
+                </div>
+                
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//produits/200/selle-amira_v1713961017.png" alt="selle western" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">25 septembre 2007 |</strong> Encore des nouveautés !</p>
+                </div>
+                
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//produits/512/heracles-horseshoes-dressage_v1718091230.png" alt="der à cheval" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">26 septembre 2007 |</strong> Un cadeau pour la Journée du Cheval !</p>
+                </div>    
+                
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//produits/60/sang-meduse_v1713961018.png" alt="sang de méduse" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">17 septembre 2007 |</strong> C'est la rentrée sur Equideow !</p>
+                </div>
+                          
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//produits/512/pomme-or_v1713961018.png" alt="pomme d'or" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">16 août 2007 |</strong> De nouvelles modifications ont été apportées.</p>
+                </div>
+                
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//produits/512/orchidee-noire_v1713961018.png" alt="orchidée noire" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">25 juillet 2007 |</strong> Encore des petites améliorations.</p>
+                </div>
+                
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://ouranos.equideow.com/media/equideo/image//produits/512/heracles-horseshoes-dressage_v1718091230.png" alt="fer a cheval" width="50px" height="50px"/>
+                    <p style="color: #984b00;"><strong style="color: #000000">26 juillet 2007 |</strong> Un cadeau pour la Journée du Cheval !</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <p style="color: #ffffff;"> Source : <a href="http://pasdhippophagie.centerblog.net"> pasdhippophagie.centerblog.net  </a> sur centerblog. </p>
+    <p style="color: #ffffff;"> Source : <a href=" https://craxor.fr/craxorcluwb/index.php"> craxor  </a> </p>
+
+   
+</div>
+</body>
+</html>
