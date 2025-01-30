@@ -86,7 +86,7 @@
     },
     {
         "question": "Le cheval se compose de trois parties externes principales, l'avant main, le corps et l'arrière main. Qu'est ce qui fait partie de l'avant main ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Poitrine", "correct": true},
         {"réponse": "Encolure", "correct": true},

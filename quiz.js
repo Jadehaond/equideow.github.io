@@ -1,85 +1,117 @@
 function loadQuiz(galop) {
-    fetch('https://jadehaond.github.io/equideow.github.io/quiz/'+galop + '.json') // Charger le fichier JSON correspondant au galop
-    
+    fetch('https://jadehaond.github.io/equideow.github.io/quiz/' + galop + '.json')
         .then(response => response.json())
         .then(data => {
             const quizContainer = document.getElementById('quiz-container');
-            quizContainer.innerHTML = ''; // Réinitialiser le conteneur du quiz
-            
-            let correctAnswers = 0; // Variable pour compter les bonnes réponses
-            let totalQuestions = data.questions.length;
+            quizContainer.innerHTML = '';
 
-            // Parcourir les questions du quiz
             data.questions.forEach((questionData, index) => {
-                // Créer la question
                 const questionElement = document.createElement('p');
                 questionElement.innerHTML = `<strong>${index + 1}. ${questionData.question}</strong>`;
                 quizContainer.appendChild(questionElement);
 
-                // Parcourir les réponses
                 questionData.réponses.forEach((réponseData, i) => {
-                    const answerId = `q${index + 1}a${i + 1}`; // Générer un id unique pour chaque réponse
-
-                    // Créer l'élément input et le label
+                    const answerId = `q${index + 1}a${i + 1}`;
                     const inputElement = document.createElement('input');
-                    inputElement.type = questionData.type;  // radio ou checkbox
-                    inputElement.id = answerId;             // ID unique pour chaque réponse
-                    inputElement.name = `q${index + 1}`;    // Tous les inputs d'une question partagent le même name
+                    inputElement.type = questionData.type;
+                    inputElement.id = answerId;
+                    inputElement.name = `q${index + 1}`;
+                    inputElement.value = réponseData.réponse;
 
                     const labelElement = document.createElement('label');
                     labelElement.setAttribute('for', answerId);
                     labelElement.innerHTML = réponseData.réponse;
 
-                    // Ajouter l'élément input et label au conteneur
                     quizContainer.appendChild(inputElement);
                     quizContainer.appendChild(labelElement);
-                    quizContainer.appendChild(document.createElement('br')); // Ajouter un saut de ligne
+                    quizContainer.appendChild(document.createElement('br'));
                 });
             });
 
-            // Ajouter le bouton Valider
             const validateButton = document.createElement('button');
             validateButton.innerHTML = 'Valider';
             validateButton.classList.add('quiz-btn-validate');
-
-            // Cibler le div spécifique pour le bouton et ajouter le bouton à ce div
             const validateBtnContainer = document.getElementById('quiz-validate-btn-container');
-            validateBtnContainer.appendChild(validateButton); // Ajouter le bouton seulement ici
+            validateBtnContainer.innerHTML = ''; // S'assurer qu'il est vide avant d'ajouter un bouton
+            validateBtnContainer.appendChild(validateButton);
 
-            // Gestionnaire d'événements pour le bouton "Valider"
             validateButton.addEventListener('click', () => {
-                let wrongAnswers = 0;
-
-                // Parcourir chaque question pour vérifier les réponses
-                data.questions.forEach((questionData, index) => {
-                    const selectedAnswer = document.querySelector(`input[name="q${index + 1}"]:checked`);
-                    
-                    // Si aucune réponse n'est sélectionnée
-                    if (selectedAnswer) {
-                        // Récupérer la réponse qui a été sélectionnée
-                        const selectedAnswerValue = selectedAnswer.value;
-
-                        // Trouver la réponse correcte dans les réponses de la question
-                        const correctAnswer = questionData.réponses.find(r => r.correct === true);
-
-                        // Vérifier si la réponse sélectionnée est correcte
-                        if (selectedAnswerValue === correctAnswer.réponse) {
-                            correctAnswers++;
-                        } else {
-                            wrongAnswers++;
-                        }
-                    } else {
-                        wrongAnswers++; // Si aucune réponse sélectionnée, considérer comme fausse
-                    }
-                });
-
-                // Afficher le résultat
-                if (wrongAnswers >= 4) {
-                    alert("Perdu ! Tu as " + wrongAnswers + " erreurs.");
-                } else {
-                    alert("Gagné ! Tu as " + correctAnswers + " bonnes réponses.");
-                }
+                checkAnswers(data.questions);
             });
         })
         .catch(error => console.error('Erreur lors du chargement du quiz :', error));
+}
+
+// Fonction pour vérifier les réponses
+function checkAnswers(questions) {
+    let correctAnswers = 0;
+    let wrongAnswers = 0;
+
+    questions.forEach((questionData, index) => {
+        const selectedAnswers = document.querySelectorAll(`input[name="q${index + 1}"]:checked`);
+        
+        if (selectedAnswers.length === 0) {
+            wrongAnswers++; // Aucune réponse sélectionnée => erreur
+            return;
+        }
+
+        const selectedValues = Array.from(selectedAnswers).map(input => input.value);
+        const correctValues = questionData.réponses.filter(r => r.correct).map(r => r.réponse);
+
+        // Vérifier si toutes les bonnes réponses sont sélectionnées et uniquement celles-ci
+        if (selectedValues.length === correctValues.length && selectedValues.every(val => correctValues.includes(val))) {
+            correctAnswers++;
+        } else {
+            wrongAnswers++;
+        }
+
+         questionData.réponses.forEach((réponseData, i) => {
+            const answerId = `q${index + 1}a${i + 1}`;
+            const labelElement = document.querySelector(`label[for="${answerId}"]`);
+            const inputElement = document.getElementById(answerId);
+
+            if (réponseData.correct) {
+                labelElement.style.color = "green";
+            }
+
+            if (inputElement.checked && !réponseData.correct) {
+                labelElement.style.color = "red";
+            }
+        });
+    });
+
+    // Affichage du popup customisé
+    const message = (wrongAnswers >= 4)
+        ? `❌ Malheureusement tu as ${wrongAnswers} erreurs.\n Tu ne peux pas obtenir ton galop. Retente ta chance quand tu pourras. `
+        : `✅ Félicitations ! \n Tu as ${correctAnswers} bonnes réponses. Tu obtiens ton galop`;
+
+    showPopup(message);
+
+    // Fonction pour afficher une popup custom
+    function showPopup(message) {
+        let popup = document.getElementById("custom-popup");
+        let popupMessage = document.getElementById("popup-message");
+
+        if (!popup) {
+            // Création de la popup si elle n'existe pas
+            popup = document.createElement("div");
+            popup.id = "custom-popup";
+            popup.innerHTML = `
+                <div id="popup-content">
+                    <p id="popup-message"></p>
+                    <button id="popup-close">Fermer</button>
+                </div>
+            `;
+            document.body.appendChild(popup);
+
+            // Fermer la popup au clic sur le bouton
+            document.getElementById("popup-close").addEventListener("click", () => {
+                popup.style.display = "none";
+            });
+        }
+
+        // Mettre à jour le message et afficher la popup
+        popupMessage.innerHTML = message;
+        popup.style.display = "block";
+    }
 }

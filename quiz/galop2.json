@@ -63,7 +63,7 @@
       },
       {
         "question": "Avant de se mettre en selle, on voit certains cavaliers se mettre devant leur cheval et étirer chaque antérieur, pourquoi agissent-ils ainsi ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Pour rendre leur cheval plus docile", "correct": false },
           { "réponse": "Pour éviter les plis de peau sous la sangle qui pourraient occasionner des blessures", "correct": true },
@@ -73,7 +73,7 @@
       },
       {
         "question": "Dans le manège ou la carrière, qui est prioritaire ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Le cavalier à l’allure la plus élevée", "correct": true },
           { "réponse": "Le cavalier qui évolue au trot à main droite alors que je suis à main gauche au galop", "correct": false },
@@ -83,7 +83,7 @@
       },
       {
         "question": "Quand on fait travailler un cheval à l'obstacle en longe, on dispose une barre perpendiculairement à l'obstacle en posant une extrémité sur le support de barre se trouvant du côté du longeur de l'autre au sol :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Ce dispositif s'appelle oreille", "correct": true },
           { "réponse": "Pour encadrer le cheval", "correct": true },
@@ -129,7 +129,7 @@
       },
       {
         "question": "Lorsque j'approche un cheval, je dois veiller à...",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "À toujours passer derrière lui", "correct": false },
           { "réponse": "À le surprendre", "correct": false },
@@ -157,7 +157,7 @@
       },
       {
         "question": "Si mon cheval couche les oreilles, il est...",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Affamé", "correct": false },
           { "réponse": "De bonne humeur", "correct": false },
@@ -175,7 +175,7 @@
       },
       {
         "question": "Si je veux dépasser un cavalier, je dois :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "lui demander l'autorisation", "correct": true },
           { "réponse": "mettre mon clignotant", "correct": false },
@@ -203,7 +203,7 @@
       },
       {
         "question": " Que doit faire le cavalier qui n’est pas prioritaire dans le manège ou en carrière ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Passer en piste intérieure", "correct": true },
           { "réponse": "Rien, c’est à celui qui est prioritaire de réagir", "correct": false },
@@ -212,7 +212,7 @@
       },
       {
         "question": "Mon cheval est en train de manger, je dois veiller à...",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
             { "réponse": "Chuchoter à son oreille", "correct": false },
             { "réponse": "Le laisser tranquille", "correct": true },

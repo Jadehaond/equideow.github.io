@@ -16,7 +16,7 @@
 
     <h1>Sommaire des Galops</h1>
 
-    <ul>
+    <ul class="quiz-container-background">
       <li>
         <button onclick="loadQuiz('galop1')">Galop 1</button>
       </li>
@@ -39,7 +39,7 @@
         <button onclick="loadQuiz('galop7')">Galop 7</button>
       </li>
       <li>
-        <button onclick="loadQuiz('galop8')">Galop 8</button>
+        <button disabled onclick="loadQuiz('galop8')">Galop 8</button>
       </li>
       <li>
         <button onclick="loadQuiz('galop9')">Galop 9</button>
@@ -50,12 +50,17 @@
     </ul>
     </div>
 
-    <div id="quiz-container" class="quiz-container">
+    <div id="quiz-container" class="quiz-container quiz-container-background">
       <p class="quiz-legend">Sélectionnez le Galop que vous souhaitez passer dans le menu ci-dessus et répondez aux questions.</p>
     </div>
 
     <div id="quiz-validate-btn-container" class="quiz-container"></div>
-    <div id="quiz-footer" class="quiz-container"></div>
+    <div id="quiz-footer" class="quiz-container">
+      <p>Merci aux forums 
+        <a href="https://aide-equideow.forum-pro.fr/">Aide Equideow</a>
+        <a href="https://www.jeux-alternatifs.com/Equideow-jeu111_generale_1_1.html">Equideow (Jeux alternatifs)</a>
+      </p>
+    </div>
 
   </div>
 

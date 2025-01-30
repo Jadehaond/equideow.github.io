@@ -33,7 +33,7 @@
     },
     {
         "question": "Quels sont les éléments du filet ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "La frontière", "correct": false},
         {"réponse": "La sur-tête", "correct": false},
@@ -73,7 +73,7 @@
     },
     {
         "question": "Après une séance de travail, je dois",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Rentrer vite au chaud me changer", "correct": false},
         {"réponse": "Laisser mon cheval sécher dans le vent", "correct": false},
@@ -85,7 +85,7 @@
     },
     {
         "question": "Que sont les coins ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Les angles d’une pièce", "correct": true},
         {"réponse": "Une partie de dent qui tombe à 3 ans", "correct": true},
@@ -106,7 +106,7 @@
     },
     {
         "question": "Après la mise bas, le poulain, en général :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Se roule dans la paille pour se sécher", "correct": false},
         {"réponse": "Est longuement léché par sa mère", "correct": true},
@@ -133,7 +133,7 @@
     },
     {
         "question": "En concours de saut d’obstacles (CSO) et en cross, les obstacles :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Le fanion rouge est à droite, le blanc à gauche", "correct": true},
         {"réponse": "Ont un sens de franchissement en CSO", "correct": true},
@@ -144,7 +144,7 @@
     },
     {
         "question": "En dressage de haute école, on rencontre le piaffer et le passage. Cocher toutes les affirmations justes :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Le passage est une sorte de pas sur place", "correct": false},
         {"réponse": "Le passage est une allure intermédiaire entre le trot rassemblé et le piaffer", "correct": true},
@@ -173,7 +173,7 @@
     },
     {
         "question": "En cross, quels types d’obstacles peut-on rencontrer ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Des obstacles verticaux", "correct": false},
         {"réponse": "Des obstacles de volée", "correct": true},
@@ -194,7 +194,7 @@
     },
     {
         "question": "Dans cette liste, quels noms désignent des enrênements ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Le collier de chasse", "correct": false},
         {"réponse": "La croupière", "correct": false},

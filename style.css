@@ -3,13 +3,16 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(#a1b03f, #7e8a26, #697513);
-    height: 100vh;
     background-attachment: fixed;
+    height: 100vh;
   }
   
   .container {
+    /*display: flex;
+    flex-direction: column;*/
     width: 70%;
     margin: 0 auto;
+    min-height: 100%;
   }
   
   /* MENU */
@@ -19,7 +22,6 @@ body, html {
     justify-content: flex-end;
     gap: 0;
     width: 100%;
-    margin-bottom: 10px;
   }
   
   .menu-button {
@@ -245,25 +247,20 @@ body, html {
   
   /* QUIZ */
 
-  #quiz-container {
-    background-color: #e5e08d; 
-    border-radius: 8px;  /* Haut gauche, Haut droite, Bas droite, Bas gauche */   
-    margin-top: 150px;
-    padding: 30px;
+  .quiz-container-background {
+    background: linear-gradient(#edebb2 , #e2df8e, #e4e090);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
   }
   
   #quiz-header {
-    color: #843407; 
-    width: 100%;
-    padding-top: 50px;
+    color: #b3620c;
+    margin-top: 50px;
     border-radius: 10px;
-    height: 100px;
-    margin-bottom: 20px;
+    height: 150px;
   }
 
   #quiz-header ul {
-    background-color: #e5e08d; 
-    border-radius: 8px;
     list-style: none;
     display: flex;
     min-height: 40px;
@@ -275,46 +272,45 @@ body, html {
   }
 
   #quiz-header li button {
-    background-color: #e5e08d; 
+    background: linear-gradient(#edebb2 , #e2df8e, #e4e090);
     border: 0;
-    margin: 0;
     cursor: pointer;
     min-height: 40px;
+    font-weight: bold;
   }
 
   #quiz-header li:hover, #quiz-header li button:hover {
-    background-color: #f8d480;
+    background: #eceac5;
     height: 100%;
   }
 
+  #quiz-container {
+    /*flex: 1;*/
+    margin-top: 20px;
+    padding: 30px;
+  }
+
   .quiz-btn-validate {
-    display: flex;
-    background-color: #843407;
-    border: none;
-    border: 8px;
-    height: 30px;   
+    background-color: #566618;
+    border: 2px solid white;
+    height: 40px;   
     padding: 10px 20px; 
-    
+    margin: 10px;
+    border-radius:8px;
     cursor: pointer;
-    margin: 40px;
     color: white;   
     transition: background-color 0.3s ease;
   }
 
-  .btn-validate:hover {
-    background-color: #45a049;
-  }
-
-  .btn-validate:active {
-    transform: scale(0.98);
-  }
-
-  .btn-validate:focus {
-    outline: none;
+  .quiz-btn-validate:hover {
+    background-color: #859d26;
   }
 
   #quiz-footer {
-    height: 30px;
+    position: absolute;
+    height: 75px;
+    padding: 10px;
+    color: white;
   }
 
   #quiz-validate-btn-container { 
@@ -324,12 +320,51 @@ body, html {
     justify-content: center;
     text-align: center;
     border-radius: 0px 0px 8px 8px;  /* Haut gauche, Haut droite, Bas droite, Bas gauche */   
-    
   }
 
-  element {
-    border-top-left-radius: 50px 25px;  /* Ellipse dans le coin supérieur gauche */
-    border-top-right-radius: 50px 25px; /* Ellipse dans le coin supérieur droit */
-    border-bottom-right-radius: 50px 25px; /* Ellipse dans le coin inférieur droit */
-    border-bottom-left-radius: 50px 25px; /* Ellipse dans le coin inférieur gauche */
-  }
+
+  /* QUIZ POPUP */
+  
+#custom-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Contenu de la popup */
+#popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style du bouton Fermer */
+#popup-close {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #7e8a26;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#popup-close:hover {
+  background-color: #45a049;
+}
+
+/* Animation d'affichage */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -60%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}

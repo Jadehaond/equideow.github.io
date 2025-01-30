@@ -29,7 +29,7 @@
       },
       {
         "question": "Quelles sont les dernières vérifications à réaliser avant de monter à cheval ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Vérifier que le cheval est allé à la selle", "correct": false },
           { "réponse": "Vérifier le sanglage", "correct": true },
@@ -56,7 +56,7 @@
       },
       {
         "question": "À quoi est directement relié le mors ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Au cavalier", "correct": false },
           { "réponse": "Aux rênes", "correct": true },
@@ -133,7 +133,7 @@
       },
       {
         "question": "Lorsque j'enlève la selle de mon cheval, je dois...",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Remonter les étriers", "correct": true },
           { "réponse": "Poser la selle par terre", "correct": false },

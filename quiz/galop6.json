@@ -85,15 +85,6 @@
         ]
     },
     {
-        "question": "",
-        "type": "radio",
-        "réponses": [
-        {"réponse": "", "correct": false},
-        {"réponse": "", "correct": true},
-        {"réponse": "", "correct": false}
-        ]
-    },
-    {
         "question": "Il est important d'échauffer le cheval avant de le faire travailler.",
         "type": "radio",
         "réponses": [
@@ -112,7 +103,7 @@
     },
     {
         "question": "Quelle est la particularité des brides western ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Elles sont souvent très décorées", "correct": true},
         {"réponse": "Elles ne comprennent pas de muserolle", "correct": true},
@@ -148,7 +139,7 @@
     },
     {
         "question": "Pourquoi utilise t-on de la litière dans un box ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Pour permettre au cheval de manger la nuit", "correct": false},
         {"réponse": "Pour favoriser la respiration du cheval", "correct": false},
@@ -159,7 +150,7 @@
     },
     {
         "question": "Un élevage à une étoile",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Ne comporte que des chevaux ayant une étoile d’excellence", "correct": false},
         {"réponse": "Peut regrouper plusieurs races", "correct": false},

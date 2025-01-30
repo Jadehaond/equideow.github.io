@@ -46,7 +46,7 @@
       },
       {
         "question": "Lesquelles de ces parties se trouvent sur une selle ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Le poirier", "correct": false },
           { "réponse": "La sangle", "correct": true },
@@ -118,7 +118,7 @@
       },
       {
         "question": "Quels termes parmi les suivants désignent une pathologie du pied ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Les pointes de feu", "correct": false },
           { "réponse": "Bleime ", "correct": true },
@@ -129,7 +129,7 @@
       },
       {
         "question": "Quels termes parmi les suivant désignent une partie du fer ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Les pinçons", "correct": true },
           { "réponse": "Le grain d’orge", "correct": false },
@@ -174,14 +174,14 @@
         "question": "Les fers doivent être remplacés...",
         "type": "radio",
         "réponses": [
-          { "réponse": "tous les 2 mois", "correct": false },
-          { "réponse": "ous les ans", "correct": false },
-          { "réponse": "tous les 4 à 6 semaines", "correct": false }
+          { "réponse": "Tous les 2 mois", "correct": false },
+          { "réponse": "Tous les ans", "correct": false },
+          { "réponse": "Tous les 4 à 6 semaines", "correct": true }
         ]
       },
       {
         "question": "Quelles sont les règles de sécurité que l'on doit respecter lorsque l'on est avec un cheval ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Être prudent dans tous ses contacts avec les chevaux", "correct": true },
           { "réponse": "Laisser de jeunes enfants jouer à côté d'un cheval attaché", "correct": false },
@@ -216,7 +216,7 @@
       },
       {
         "question": "Quels termes parmi les suivants désignent une ferrure orthopédique ou un élément de ferrure orthopédique ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "L'egg bar shoe", "correct": false },
           { "réponse": "La talonnette", "correct": true },

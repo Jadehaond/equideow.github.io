@@ -24,7 +24,7 @@
     },
     {
         "question": "Le trot est une allure...",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "Sautée", "correct": true},
         {"réponse": "À neuf temps", "correct": false},
@@ -35,7 +35,7 @@
     },
     {
         "question": "Parmi ces lettres, lesquelles ne sont pas utilisées comme repère dans un manège ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "A", "correct": false},
         {"réponse": "J", "correct": true},
@@ -53,7 +53,7 @@
     },
     {
         "question": "Quelles parties ne se trouvent pas sur le pied du cheval ?",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
         {"réponse": "La caisse", "correct": true},
         {"réponse": "Les ligaments extérieurs", "correct": true},

@@ -30,7 +30,7 @@
       },
       {
         "question": "Pour sauter un obstacle, je dois :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Déchausser mes étriers", "correct": false },
           { "réponse": "Fermer les yeux", "correct": false },
@@ -105,7 +105,7 @@
       },
       {
         "question": "Certaines vaccinations sont obligatoires pour participer à des compétitions équines :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Le fourche des foins", "correct": false },
           { "réponse": "La rage", "correct": true },
@@ -133,7 +133,7 @@
       },
       {
         "question": "La qualité du sol sur lequel travaille le cheval a une importance capitale, cochez les affirmations justes :",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Un sol profond fatigue les tendons", "correct": true },
           { "réponse": "Un sol collant qui forme des paquets sous le pied du cheval permet de mieux amortir les chocs", "correct": false },
@@ -203,7 +203,7 @@
       },
       {
         "question": "Je peux nettoyer les saletés tassées sous les sabots avec une brosse douce.",
-        "type": "radio",
+        "type": "checkbox",
         "réponses": [
           { "réponse": "Aplatie", "correct": true },
           { "réponse": "En poudre", "correct": false },
@@ -259,7 +259,7 @@
         ]
       },
       {
-        "question": "L’expression « tire au flanc",
+        "question": "L’expression « tire au flanc »",
         "type": "radio",
         "réponses": [
           { "réponse": "Désigne le soulèvement des flancs du cheval dont la respiration est gênée par un emphysème", "correct": false },
