@@ -95,15 +95,6 @@
         ]
       },
       {
-        "question": "",
-        "type": "radio",
-        "réponses": [
-          { "réponse": "", "correct": false },
-          { "réponse": "", "correct": false },
-          { "réponse": "", "correct": true }
-        ]
-      },
-      {
         "question": "Certaines vaccinations sont obligatoires pour participer à des compétitions équines :",
         "type": "checkbox",
         "réponses": [
